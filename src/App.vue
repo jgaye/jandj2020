@@ -1,34 +1,54 @@
 <template>
   <div id="app">
     <h1>Julia and Julien 2020</h1>
-    <div class="header">
-      <a href="#"
-        v-for="(item, index) in headerItems"
-        :key="item"
-        v-on:click="setActive(index)"
-        :class="{'active': index == activeIndex}"
-        >
-        {{item}}
-      </a>
+    <div class="menu">
+      <div v-if="selectedLanguage == 'english'">
+        <a href="#"
+          v-for="(item, index) in en_menu"
+          :key="item"
+          v-on:click="setActive(index)"
+          :class="{'active': index == activeIndex}"
+          >
+          {{item}}
+        </a>
+      </div>
+      <div v-else-if="selectedLanguage == 'french'">
+        <a href="#"
+          v-for="(item, index) in fr_menu"
+          :key="item"
+          v-on:click="setActive(index)"
+          :class="{'active': index == activeIndex}"
+          >
+          {{item}}
+        </a>
+      </div>
+      <div class="languageSelector">
+        <img 
+          v-on:click="setLanguage('english')" 
+          src="./assets/usa.png">
+        <img 
+          v-on:click="setLanguage('french')" 
+          src="./assets/france.png">
+      </div>
     </div>
 
     <div v-if="activeIndex == 0">
       <Wedding :language=selectedLanguage />
     </div>
     <div v-if="activeIndex == 1">
-      <OurStory :msg=ourStory />
+      <OurStory :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 2">
-      <Venue :msg=venue />
+      <Venue :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 3">
-      <Travel :msg=travel />
+      <Travel :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 4">
-      <UsVisitors :msg=usVisitors />
+      <UsVisitors :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 5">
-      <Photos :msg=photos />
+      <Photos :language=selectedLanguage  />
     </div>
   </div>
 </template>
@@ -53,25 +73,21 @@ export default {
     UsVisitors
   },
   props: {
-    items: Array,
   },
   data: function(){
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
-      textContent: textContent,
-      headerItems: textContent.en_header,
-      ourStory: textContent.en_our_story,
-      wedding: textContent.en_wedding,
-      photos: textContent.en_photos,
-      venue: textContent.en_venue,
-      travel: textContent.en_travel,
-      usVisitors: textContent.en_passport
+      en_menu: ["Wedding", "Our Story","Venue","Travel","US Guests","Photos"],
+      fr_menu: ["Mariage", "Notre Histoire", "Le Domaine","Accès","Visiteurs Américains","Photos"]
     }
   },
   methods: {
     setActive: function(index){
       this.activeIndex = index
+    },
+    setLanguage: function(language){
+      this.selectedLanguage = language
     }
   }
 }
@@ -86,7 +102,7 @@ export default {
     color: #2c3e50;
     margin-top: 60px;
   }
-  .header{
+  .menu{
     align-items: center;
     padding: 10px;
     color: #FFFFFF;
