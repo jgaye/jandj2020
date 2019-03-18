@@ -13,7 +13,7 @@
     </div>
 
     <div v-if="activeIndex == 0">
-      <Wedding :msg=wedding />
+      <Wedding :language=selectedLanguage />
     </div>
     <div v-if="activeIndex == 1">
       <OurStory :msg=ourStory />
@@ -58,6 +58,7 @@ export default {
   data: function(){
     return {
       activeIndex: 0,
+      selectedLanguage: 'english',
       textContent: textContent,
       headerItems: textContent.en_header,
       ourStory: textContent.en_our_story,
