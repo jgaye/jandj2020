@@ -1,6 +1,24 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <div v-if="language == 'english'">
+      <h2>The Wedding</h2>
+
+      <p id="wed">Please join us for our wedding celebration on:</p>
+
+      <p id="wed">Saturday 8 August 2020<br>
+      Attire: Formal</p>
+
+      <p id="wed">Le Domaine d'Essendiéras<br>
+      Lieu-dit, Essendiéras<br> 
+      24160 Saint-Médard-d'Excideuil<br>
+      Dordogne, France</p>
+
+      <p>There will be a late-afternoon religious ceremony, followed by cocktail hour, a sit-down dinner, and then the chance to party into the early morning hours.</p>
+    </div>
+    <div v-if="language == 'french'">
+      <p>TODO</p>
+    </div>
+
   </div>
 </template>
 
@@ -8,7 +26,7 @@
 export default {
   name: 'Wedding',
   props: {
-    msg: String
+    language: String
   }
 }
 </script>
