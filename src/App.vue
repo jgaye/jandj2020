@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <h1>Julia and Julien 2020</h1>
-    <div class="menu">
-      <div v-if="selectedLanguage == 'english'">
+    <div class="header">
+      <h1>Julia and Julien 2020</h1>
+    </div>
+    <div v-if="selectedLanguage == 'english'">
+      <div class="menu"> 
         <a href="#"
           v-for="(item, index) in en_menu"
           :key="item"
@@ -12,7 +14,9 @@
           {{item}}
         </a>
       </div>
-      <div v-else-if="selectedLanguage == 'french'">
+    </div>
+    <div v-else-if="selectedLanguage == 'french'">
+      <div class="menu"> 
         <a href="#"
           v-for="(item, index) in fr_menu"
           :key="item"
@@ -22,15 +26,16 @@
           {{item}}
         </a>
       </div>
-      <div class="languageSelector">
-        <img 
-          v-on:click="setLanguage('english')" 
-          src="./assets/usa.png">
-        <img 
-          v-on:click="setLanguage('french')" 
-          src="./assets/france.png">
-      </div>
     </div>
+    <div class="language_selector">
+      <img 
+        v-on:click="setLanguage('english')" 
+        src="./assets/usa.png">
+      <img 
+        v-on:click="setLanguage('french')" 
+        src="./assets/france.png">
+    </div>
+    <!-- </div> -->
 
     <div v-if="activeIndex == 0">
       <Wedding :language=selectedLanguage />
@@ -54,7 +59,6 @@
 </template>
 
 <script>
-import textContent from './assets/textContent.json'
 import OurStory from './components/OurStory.vue'
 import Wedding from './components/Wedding.vue'
 import Photos from './components/Photos.vue'
@@ -94,30 +98,129 @@ export default {
 </script>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css?family=Stalemate');
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  }
+
+  body{
+    margin: 0;
+  }
+
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin: none;
   }
+
   .menu{
-    align-items: center;
-    padding: 10px;
-    color: #FFFFFF;
-    justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: center;
+    margin-top: 1vh;
   }
-  a {
-    font-family: Tangerine;
+  .menu a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: darkgreen;
+    margin: 0 2vw;
     font-size: 18px;
+    cursor: pointer;
+  }
+
+  .language_selector{
+    text-align: right;
+  }
+  .language_selector img{
+    height: 4vh;
+  }
+
+  ul{
+    padding-left: 40px;
+  }
+  li{
+    text-align: left;
+  }
+
+  .content {
+    margin: 0 15%;
+    max-width: 90vw;
+    box-sizing: border-box;
+      position: relative;
+    padding: 10px 15px;
+  }
+
+  /*.textBox{
+      margin: 0 10% !important;
+      padding: 10px 15px;
+  }*/
+
+  .header {
+    background-image: url('./assets/190303_Julia-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 48vh;
+  }
+  h1 {
+    font-family: 'Stalemate', cursive;
     font-weight: 400;
-    line-height: 3;
-    margin: 0;
+    line-height: 1.6;
+    font-size: 70px;
+    color: black;
+  }
+
+  h2 {
+    font-family: 'Stalemate', cursive;
+    text-align: center;
+    margin: 5px 1px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 50px;
     color: #404040;
   }
-  a.active {
-    font-weight: bolder;
+
+  h3,h4 {
+    font-family: 'Avenir', sans-serif;
+    text-align: left;
+    margin: 5px 1px;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #404040;
+  }
+
+  p {
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.6;
+      text-transform: none;
+      letter-spacing: normal;
+      text-align: left;
+      font-size: 16px;
+      color: #404040;
+      margin-bottom: 1.5em;
+  }
+
+  .wed {
+    text-align: center;
+  }
+  .b {
+    font-size: 18px;
+  }
+
+  .picture_strip {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 1.5em;
   }
 </style>
