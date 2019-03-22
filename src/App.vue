@@ -5,7 +5,7 @@
     </div>
     <div v-if="selectedLanguage == 'english'">
       <div class="menu"> 
-        <a href="#"
+        <a class="navigation" href="#"
           v-for="(item, index) in en_menu"
           :key="item"
           v-on:click="setActive(index)"
@@ -15,6 +15,7 @@
         </a>
       </div>
     </div>
+    <!-- 
     <div v-else-if="selectedLanguage == 'french'">
       <div class="menu"> 
         <a href="#"
@@ -34,7 +35,7 @@
       <img 
         v-on:click="setLanguage('french')" 
         src="./assets/france.png">
-    </div>
+    </div> -->
     <!-- </div> -->
 
     <div v-if="activeIndex == 0">
@@ -129,11 +130,27 @@ export default {
     justify-content: center;
     margin-top: 1vh;
   }
-  .menu a:link, a:visited, a:hover, a:active {
+
+  a.navigation.active {
     text-decoration: none;
     color: darkgreen;
     margin: 0 2vw;
     font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  a.navigation:link, a.navigation:visited, a.navigation:hover {
+    text-decoration: none;
+    color: darkgreen;
+    margin: 0 2vw;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: darkgreen;
     cursor: pointer;
   }
 
@@ -145,8 +162,9 @@ export default {
   }
 
   ul{
-    padding-left: 40px;
+    padding-left: 10vh;
   }
+
   li{
     text-align: left;
   }
@@ -158,11 +176,6 @@ export default {
       position: relative;
     padding: 10px 15px;
   }
-
-  /*.textBox{
-      margin: 0 10% !important;
-      padding: 10px 15px;
-  }*/
 
   .header {
     background-image: url('./assets/190303_Julia-1.png');

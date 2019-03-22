@@ -4,7 +4,7 @@
       <div>
       <h2>Trains</h2>
 
-      <div class="textBox">
+      <div>
         <p>Closest train stations to Le Domaine d’Essendiéras:
           <ul>
             <li>Thiviers (26 km/16 miles)</li>
@@ -15,12 +15,12 @@
 
         <p>Train tickets can be booked directly on <a href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p>
 
-        <p>A shuttle service will be available from the Limoges train station to the Domaine d’Essendiéras for your convenience. More information will be shared at a later time. </p>
+        <p>A shuttle service will be available from the Limoges train station to Le Domaine d’Essendiéras for your convenience. More information will be shared at a later time. </p>
       </div>
 
       <h2>Airports</h2>
 
-      <div class="textBox">
+      <div>
         <p>Closest airports to Le Domaine d’Essendiéras:
         <ul>
           <li>Périgueux – Bassillac (34 km/21 miles)</li>
@@ -34,14 +34,13 @@
 
       <h2>Driving</h2>
 
-      <div class="textBox">
+      <div>
         <p>The address: <br>
         Lieu-dit Essendiéras <br>
         24160 Saint Médard d’Excideuil <br>
         DORDOGNE FRANCE</p>
 
-        <p>Just past Limoges, take exit no. 36 off the A20. This takes you along a comfortable and captivating secondary road to the Domain.
-        The general reception is located at the Clubhouse of the Golf, follow “Reception” signs.</p>
+        <p>Just past Limoges, take exit no. 36 off the A20. This takes you along a comfortable and captivating secondary road to the domaine. The general reception is located at the Clubhouse of the Golf, follow “Reception” signs.</p>
       </div>
 
       </div>

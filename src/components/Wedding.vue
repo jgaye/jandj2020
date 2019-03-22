@@ -4,7 +4,7 @@
       <div>
         <h2>The Wedding</h2>
 
-        <div class="textBox">
+        <div>
           <p class="wed">Please join us for our wedding celebration on:</p>
 
           <p class="wed b">
