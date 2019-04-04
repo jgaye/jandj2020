@@ -49,7 +49,7 @@
 
           <p>The Philadelphia-area airports to consider are: Philadelphia (PHL), Newark (ERW), and New York (JFK).</p>
 
-          <p>The only direct flights from the US to France are into Paris. The Paris-area airports to consider are: Charles de Gaulle (CDG) and Orly (ORY). Flying into Paris is not necessary, and you can fly into any major city in France. Choosing to fly into another French airport, will put you closer to the actual wedding venue.</p>
+          <p>The only direct flights from the US to France are into Paris. The Paris-area airports to consider are: Charles de Gaulle (CDG) and Orly (ORY). Flying into Paris is not necessary, and you can fly into any major city in France. Choosing to fly into another French airport will put you closer to the actual wedding venue.</p>
         </div>
 
         <h4>Choosing an Airport</h4>

@@ -21,7 +21,17 @@
           <p style="text-align: center">There will be a late-afternoon religious ceremony, followed by cocktail hour, a sit-down dinner, and then the chance to party into the early morning hours. Please dress your best!</p>
         </div>
 
-        </div>
+        <h2>Sunday Brunch</h2>
+
+        <div>
+          <p class="wed">All guests are invited to join us for brunch at the domaine:</p>
+
+          <p class="wed b">
+            Sunday, August 9, 2020 at 11am
+          </p>
+        </div>    
+
+      </div>
     </div>
     <div v-if="language == 'french'">
       <p>TODO</p>

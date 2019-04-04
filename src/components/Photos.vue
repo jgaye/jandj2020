@@ -1,5 +1,10 @@
 <template>
   <div class="content">
+    <div>
+      <h2>Photos</h2>
+      <p>Enjoy photos from our engagement photo shoot in Montmartre at the Sacré-Cœur, by <a href="https://www.missparisphoto.com/">Krystal Kenny</a>.</p>
+    </div>
+      
     <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
       data-link="https://photos.app.goo.gl/jxZwLSr2DzYJP7pT6"
       data-title="Julia &amp; Julien"
@@ -38,6 +43,7 @@
       <img data-src="https://lh3.googleusercontent.com/GWtQA5U4TqU0DNAmx7Jwx9DLyTKkqboNz4CX_4Ed0lXyT_gyqfcg3CrU8-3yxOLvOVRpTTm50UqKtX04qQfnm1ZSv9ab_2h4OnsLm7KLdE3TGW56RJHpfn52eGVby5wPD8rthLKWYho=w1920-h1080" src="" alt="" />
       <img data-src="https://lh3.googleusercontent.com/UkDYvVyBzDrYq2DeevR5yQowSWqEkelgCN8VjJv91pQUXz6oAU4bOL-1MP8oVcsfdRBvZCXAV2Jt8ySZFrlvqdQD1bnLLrgXeDuGiDGrGmfNmlQVtgbHFnGn4wWHKQRmbYP7nXgWPHE=w1920-h1080" src="" alt="" />
     </div>
+    
   </div>
 </template>
 
