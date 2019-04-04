@@ -6,11 +6,16 @@
 
         <div class="textBox">
           <p>Le Domaine d'Essendiéras offers plenty of options to accommodate your stay during the wedding. There are various <a href="http://www.essendieras.com/location/holiday-homes/">holiday homes</a> that can be rented on the property and are only a 15-minute walk to the main area of the domaine. <a href="http://www.essendieras.com/location/campsite/">Camping</a> is also an option for those interested.</p>
-          </div>
 
-          <h2>Le Domaine</h2>
+          <p>Most rental properties on the domaine house at least 6 people. If you are a smaller group and need help coordinating with others for lodging, please contact us.</p>
+          
+          <p>The domaine is not accessible by public transportation. If you plan on staying outside of the domaine or wish to leave the domaine property during your stay, it is advisable to rent a car. We will have a shuttle service available to access the domaine from the Limoges train station. More information is on the Travel page.</p>
 
-          <div>
+        </div>
+
+        <h2>Le Domaine</h2>
+
+        <div>
           <p>There are many <a href="http://www.essendieras.com/activities-facilities/activities-facilities-domain/">activities</a> on the domain property to enjoy during your stay and should be taken advantage of to the fullest!</p> 
 
           <ul>
