@@ -14,15 +14,15 @@
             We fell in love.
           </label>
           <label>
-            <img src="../assets/wedding_placeholder.png"><br>
+            <img src="../assets/wedding.png"><br>
             We got married!
           </label>
         </div>
 
         <div>
-        <p>We first met in the summer of 2016 working at the same Philadelphia-based startup. Julien was in the US on a six-month work visa, and Julia was hired following her university graduation. We quickly struck up a friendship, and it wasn’t long before Julien admitted his feelings for Julia, and (eventually) she admitted the same.</p>
+        <p>Julia and Julien first met in the summer of 2016 working at the same Philadelphia-based startup. Julien was in the US on a six-month work visa, and Julia was hired following her university graduation. They quickly struck up a friendship, and it wasn’t long before Julien admitted his feelings for Julia, and (eventually) she admitted the same.</p>
 
-        <p>We were inseparable until Julien’s return to France, but the distance couldn’t keep us apart. Eight months later, Julia moved to Paris and we started to build our life together. On March 30, 2019, we legally wed during a civil ceremony in Croissy-sur-Seine. We are excited to celebrate our love and commitment with all of our family and friends from both sides of the Atlantic in 2020.</p>
+        <p>The two were inseparable until Julien’s return to France, but the distance couldn’t keep them apart. Eight months later, Julia moved to Paris and they started to build their life together. On March 30, 2019, they legally wed during a civil ceremony in Croissy-sur-Seine. Julia and Julien are excited to celebrate their love and commitment with all of their family and friends from both sides of the Atlantic in 2020.</p>
         </div>
 
         </div>
