@@ -37,8 +37,42 @@
         </div>
       </div> 
     </div>
-    <div v-if="language == 'french'">
-      <p>TODO</p>
+    <div v-else-if="language == 'french'">
+      <div>
+        <h2> Hébergement </h2>
+
+        <div class = "textBox">
+          <p> Le Domaine d'Essendiéras offre de nombreuses options pour organiser votre séjour pendant le mariage. Il existe différentes <a href="http://www.essendieras.com/location/holiday-homes/"> maisons de vacances </a> qui peuvent être louées sur place et se trouvent à seulement 15 minutes à pied des principales domaine du domaine. Le <a href="http://www.essendieras.com/location/campsite/"> Camping </a> est également une option pour ceux qui sont intéressés. </p>
+
+          <p> La plupart des biens locatifs du domaine comptent au moins 6 personnes. Si vous êtes un petit groupe et que vous avez besoin d’aide pour la coordination avec d’autres, contactez-nous. </p>
+          
+          <p> Le domaine n’est pas accessible par les transports en commun. Si vous envisagez de rester en dehors du domaine ou souhaitez quitter la propriété du domaine pendant votre séjour, il est conseillé de louer une voiture. Nous aurons un service de navette disponible pour accéder au domaine depuis la gare de Limoges. Plus d’informations sur la page Voyages. </p>
+
+        </div>
+
+        <h2> Le Domaine </h2>
+
+        <div>
+          <p> Il existe de nombreuses <a href="http://www.essendieras.com/activities-facilities/activities-facilities-domain/"> activités </a> sur la propriété du domaine à apprécier pendant votre séjour et qui devraient être: profité au maximum! </p>
+
+          <ul>
+            <li> Spa </li>
+            <li> court de tennis </li>
+            <li> Terrain de football </li>
+            <li> Beach volley </li>
+            <li> Bocce Ball </li>
+            <li> Piscines </li>
+            <li> Pédalo dans l'étang </li>
+            <li> Sentiers pédestres et cyclables </li>
+            <li> Des VTT sont disponibles à la location </li>
+            <li> parcours de golf de 9 trous </li>
+            <ul>
+              <li> Vous pouvez louer du matériel sur le domaine </li>
+              <li> Contacter le domaine pour une réduction de groupe </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </template>

@@ -15,10 +15,10 @@
         </a>
       </div>
     </div>
-    <!-- 
+    
     <div v-else-if="selectedLanguage == 'french'">
       <div class="menu"> 
-        <a href="#"
+        <a class="navigation" href="#"
           v-for="(item, index) in fr_menu"
           :key="item"
           v-on:click="setActive(index)"
@@ -35,8 +35,7 @@
       <img 
         v-on:click="setLanguage('french')" 
         src="./assets/france.png">
-    </div> -->
-    <!-- </div> -->
+    </div>
 
     <div v-if="activeIndex == 0">
       <Wedding :language=selectedLanguage />

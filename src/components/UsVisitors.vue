@@ -92,7 +92,9 @@
       </div>
     </div>
     <div v-if="language == 'french'">
-      <p>TODO</p>
+      <div>
+        <p>Soyez gentils avec nos invités américains</p>
+      </div>
     </div>
   </div>
 </template>
