@@ -1,7 +1,22 @@
 <template>
   <div id="app">
     <div class="header">
-      <h1>Julia and Julien 2020</h1>
+      <div class="header-content">
+        <div></div>
+
+        <h1>Julia and Julien 2020</h1>
+
+        <div class="language_selector">
+          <img 
+            v-on:click="setLanguage('english')" 
+            :class="{'active': selectedLanguage == 'english'}"
+            src="./assets/usa.png">
+          <img 
+            v-on:click="setLanguage('french')" 
+            :class="{'active': selectedLanguage == 'french'}"
+            src="./assets/france.png">
+        </div>
+      </div>
     </div>
     <div v-if="selectedLanguage == 'english'">
       <div class="menu"> 
@@ -28,14 +43,7 @@
         </a>
       </div>
     </div>
-    <div class="language_selector">
-      <img 
-        v-on:click="setLanguage('english')" 
-        src="./assets/usa.png">
-      <img 
-        v-on:click="setLanguage('french')" 
-        src="./assets/france.png">
-    </div>
+    
 
     <div v-if="activeIndex == 0">
       <Wedding :language=selectedLanguage />
@@ -153,13 +161,6 @@ export default {
     cursor: pointer;
   }
 
-  .language_selector{
-    text-align: right;
-  }
-  .language_selector img{
-    height: 4vh;
-  }
-
   ul{
     padding-left: 10vh;
   }
@@ -182,6 +183,28 @@ export default {
     background-position: center;
     height: 48vh;
   }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .language_selector{
+    text-align: right;
+    line-height: 2.0;
+    padding: 20px;
+  }
+  .language_selector img{
+    height: 4vh;
+    padding: 5px;
+    opacity: 0.5;
+  }
+  .language_selector img:hover{
+    opacity: 1;
+  }
+  .language_selector img.active{
+    opacity: 1;
+    zoom: 1.1;
+  }
+
   h1 {
     font-family: 'Stalemate', cursive;
     font-weight: 400;
