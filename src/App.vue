@@ -103,7 +103,7 @@ export default {
     }
   },
   mounted(){
-      if (window.location.pathname.includes('fr')){
+      if (window.location.hash.includes('fr')){
         this.setLanguage('french')
       }
   },
