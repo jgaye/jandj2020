@@ -22,7 +22,7 @@
         <div>
           <p>Julia and Julien first met in the summer of 2016 working at the same Philadelphia-based startup. Julien was in the US on a six-month work visa, and Julia was hired following her university graduation. They quickly struck up a friendship, and it wasn’t long before Julien admitted his feelings for Julia, and (eventually) she admitted the same.</p>
 
-          <p>The two were inseparable until Julien’s return to France, but the distance couldn’t keep them apart. Eight months later, Julia moved to Paris and they started to build their life together. On March 30, 2019, they legally wed during a civil ceremony in Croissy-sur-Seine. Julia and Julien are excited to celebrate their love and commitment with all of their family and friends from both sides of the Atlantic in 2020.</p>
+          <p>The two were inseparable until Julien’s return to France, but the distance couldn’t keep them apart. Eight months later, Julia moved to Paris and they started to build their life together. On March 30, 2019, they married during a civil ceremony in Croissy-sur-Seine. Julia and Julien are excited to celebrate their love and commitment with all of their family and friends from both sides of the Atlantic in 2020.</p>
         </div>
 
         </div>
@@ -84,83 +84,79 @@
 
     <div v-else-if="language == 'french'">
       <div>
-        <h2>Our Story</h2>
-
+        <h2>Notre Histoire</h2>
+        <!-- verified --> 
         <div class="picture_strip">
           <label>
-            <img src="../assets/IMG_7702.png"><br>
-            Nous nous sommes rencontrés.
+            <img src="../assets/IMG_7702.png"><br>Nous nous<br/> sommes rencontrés.
           </label>
           <label>
-            <img src="../assets/IMG_8174.png"><br>
-            Nous sommes tombés amoureux.
+            <img src="../assets/IMG_8174.png"><br>Nous sommes<br/> tombés amoureux.
           </label>
           <label>
-            <img src="../assets/wedding.png"><br>
-            Nous nous sommes mariés!
+            <img src="../assets/wedding.png"><br>Nous nous<br/> sommes mariés!
           </label>
         </div>
 
         <div>
-          <p> Julia et Julien se sont rencontrés pour la première fois à l'été 2016 au sein de la même startup basée à Philadelphie. Julien était aux États-Unis avec un visa de travail de six mois et Julia a été embauchée après l'obtention de son diplôme universitaire. Ils ont rapidement noué une amitié, et Julien n’a pas tardé à admettre ses sentiments pour Julia, et (finalement) elle a admis la même chose. </p>
+          <p> Julia et Julien se sont rencontrés pour la première fois à l'été 2016 dans la même startup basée à Philadelphie. Ils ont rapidement noué une amitié, et Julien n’a pas tardé à admettre ses sentiments pour Julia, et (finalement) elle a admis la même chose. </p>
 
-          <p> Les deux étaient inséparables jusqu’au retour de Julien en France, mais la distance ne pouvait les séparer. Huit mois plus tard, Julia a déménagé à Paris et ils ont commencé à se construire une vie commune. Le 30 mars 2019, ils se sont mariés légalement lors d'une cérémonie civile à Croissy-sur-Seine. Julia et Julien sont ravis de célébrer leur amour et leur engagement avec toute leur famille et leurs amis des deux côtés de l’Atlantique en 2020. </p>
+          <p> Les deux étaient inséparables jusqu’au depart de Julien pour la France, mais la distance ne pouvait les séparer. Huit mois plus tard, Julia a déménagé à Paris et ils ont commencé à se construire une vie commune. Le 30 mars 2019, ils se sont mariés lors d'une cérémonie civile à Croissy-sur-Seine. Julia et Julien sont ravis de célébrer de nouveau leur amour et leur engagement en 2020 avec toute leur famille et leurs amis venus des deux côtés de l’Atlantique. </p>
         </div>
 
         </div>
 
-        <h2>Nos vœux</h2>  
+        <h2>Nos Vœux</h2>  
 
         <div class="row">   
       
           <div class="column">
-
+            <!-- verified --> 
             <h2>Julia</h2>  
               
-            <p> Julien, c’est difficile pour moi de décrire l’amour que je ressens pour toi. Il est difficile de trouver les mots justes pour expliquer ce que je ressens lorsque je regarde dans les yeux ou que vous tendez la main pour me tenir la main. </p>
+            <p> Julien, c’est difficile de mettre mes sentiments pour toi par écrit. Il y a quelque chose que je ne peux pas décrire comme ce que je ressens quand je regarde dans tes yeux ou quand tu me prends la main. </p>
 
-            <p> C’est le même sentiment que j’avais sur un bar sur le toit près de trois ans. Tu m'as fait rire d'une manière que je n'avais jamais vue auparavant. Je me souviens avoir pensé: «C’est ainsi que je veux dépenser pour toujours.» À l’époque, je ne savais pas que je passerais ma vie à jamais avec vous. Merci donc de ne pas m'abandonner. </p>
+            <p> C’est le même sentiment que j'ai eu au Bok Bar sur le rooftop à Philadelphie, il y a près de trois ans. Tu m'as fait rire comme je n'avais encore jamais ri. Je me souviens avoir pensé: «Cet homme est le type d'homme avec lequel je pourrais passer ma vie.» À ce moment-là, je ne réalisais pas que je passerais ma vie avec toi. Merci de ne pas avoir renouncé (et même d'avoir beacoup insisté). </p>
 
-            <p> Etre avec toi, Julien, a été merveilleux. Tu m'as accepté, pris soin de moi, m'a aimé. Nous avons construit notre vie ensemble, mais elle n’est pas venue sans sacrifice et sans difficultés. Des choses qui ont sans aucun doute fait de nous de meilleures personnes et de meilleurs partenaires les uns pour les autres. </P>
+            <p> Être avec toi est merveilleux. Tu m'as accepté comme je suis, tu as pris soin de moi, tu m'as aimée. Nous avons construit notre vie ensemble, même si nous avons du faire des sacrifice et passer des moments pas faciles. La vie a fait de nous de meilleures personnes et nous sommes devenus les meilleurs copains du monde.</P>
 
-            <p> Alors que nous franchissons ensemble la prochaine étape dans le mariage, je jure de garder cette merveille et notre respect dans notre relation. Apprendre des moments difficiles et les surmonter en équipe. Faire ce qui est nécessaire pour être ensemble. </p>
+            <p> Puisque nous prenons pour prochaine étape le mariage,je fais le serment de garder le merveilleux et l'admiration dans notre relation. Apprendre des moments difficiles et les traverser en équipe. Faire le nécessaire pour être ensemble. Te soutenir dans les hauts comme dans les bas. Et faire de mon mieux pour être patiente.</p>
 
-            <p> Je vais vous soutenir, à travers les hauts et les bas. Et fais de mon mieux pour être plus patient. Je veux vous donner le meilleur de moi-même et être la meilleure personne que vous voyez en moi. </p>
+            <p> Je veux te donner le meilleur de moi-même et être la meilleure personne que tu vois en moi. </p>
 
-            <p> Plus important encore, je vous promets de toujours vous aimer et de vous respecter, sans réserve et de tout mon cœur, même à l'âge de 296 ans. </p>
+            <p> Le plus important, je fais le serment de toujours t'aimer et de toujours te respecter, inconditionnellement et de tout mon cœur. Même à l'âge de 296 ans. </p>
 
-            <p> Je t’aime, mon Boo. </p>
+            <p> Je t’aime, mon Boo. </p>
           </div>
 
           <div class="column">
-
+            <!-- NOT verified --> 
             <h2>Julien</h2>  
 
-            <p> Julia, Little Boo, ce n’est pas un exercice facile d’exprimer avec quelques voeux à quel point je suis amoureuse de toi et combien j’aimerais profiter de partager toutes les expériences de la vie avec vous pendant le reste de notre existence. </p>
+            <p> Julia, Little Boo, ce n’est pas un exercice facile d’exprimer avec seulement quelques voeux à quel point je suis amoureuse de toi et combien j'ai envie de profiter de toutes les expériences de la vie avec toi, pour le reste de notre existence. </p>
 
-            <p> Mais j'ai fait de mon mieux ici, et j'espère que cela vous fera déchirer un peu ... </p>
+            <p> Mais j'ai essayé de faire de mon mieux, et j'espère réussir à te faire verser une petite larme... </p>
 
-            <p> Alors, tout d’abord, je jure de continuer à vous faire rire tous les jours. </p>
+            <p> Alors, tout d’abord, je jure de continuer à te faire rire tous les jours. </p>
 
-            <p> Je m'engage à toujours être à vos côtés et toujours à vos côtés, même lorsque vous vous trompez. </p>
+            <p> Je jure d'être toujours à tes côtés, et de toujours être d'accord avec toi, même quand tu as tort. </p>
 
-            <p> Je jure de vous suivre aux 4 coins de la terre et de vous emmener voir les 4 autres. </p>
+            <p> Je jure de te suivre aux 4 coins de la terre et de t'emmener voir les 4 autres. </p>
 
-            <p> Je jure de ne jamais perdre patience. </p>
+            <p> Je jure de ne jamais perdre patience. </p>
 
-            <p> Je jure de vous aider à réaliser vos rêves, car les États-Unis en font toujours partie. </p>
+            <p> Je jure de t'aider à réaliser tes rêves, car NOUS en à toujours été une part importante. </p>
 
-            <p> Je jure de toujours porter les objets lourds dans les escaliers. </p>
+            <p> Je jure de toujours porter les objets lourds dans les escaliers. </p>
 
-            <p> Je jure de vous offrir une bonne vie, de prendre soin de vous dans les bons et les mauvais moments, de trouver le bonheur avec vous et de vous cuisiner de bons repas en le faisant. (Le bonheur et la nourriture sont très liés, comme vous le savez.) </P>
+            <p> Je jure de t'offrir une bonne vie, de prendre soin de toi dans les bons et les mauvais moments, de trouver le bonheur avec toi et de toujours te cuisiner de bons petits plats. (Le bonheur et la nourriture sont très liés, comme tu le sais.) </p>
 
-            <p> Boo, tu sais que je pourrais continuer pendant des heures car nous sommes tous les deux très doués pour dresser des listes impossibles à terminer. Je vais donc simplement conclure maintenant: </p>
+            <p> Boo, tu sais que je pourrais continuer pendant des heures car nous sommes tous les deux très doués pour commencer des listes longues comme le bras, impossibles à terminer. Je vais donc simplement conclure maintenant: </p>
 
-            <p> Je jure de vous aimer de tout mon cœur et de continuer à découvrir avec vous toutes les surprises de la vie, sachant très bien que vous êtes le meilleur de tous! </p>
+            <p> Je jure de t'aimer de tout mon cœur et de continuer à découvrir avec toi toutes les surprises de la vie, sachant très bien que tu es la meilleure de toutes ! </p>
           </div>
         </div>
     </div>
-
   </div>
 </template>
 

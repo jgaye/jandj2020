@@ -17,9 +17,10 @@
     
     </div>
     <div v-else-if="language == 'french'">
+      <!-- verified --> 
       <div>
         <h2>Photos</h2>
-        <p>Profitez des photos de notre cérémonie civile à Croissy-sur-Seine, gracieuseté d'Ophélie, belle-soeur du marié.</p>
+        <p>Voici les photos de notre cérémonie civile à Croissy-sur-Seine, prises par d'Ophélie, belle-soeur du marié.</p>
       </div>
 
       <Wedding2019Photos></Wedding2019Photos>

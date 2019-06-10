@@ -32,7 +32,7 @@
         </p>
       </div>
 
-      <h2>Driving</h2>
+      <h2>By Car</h2>
 
       <div>
         <p>The address: <br>
@@ -47,48 +47,42 @@
     </div>
     <div v-else-if="language == 'french'">
       <div>
-      <h2> Trains </h2>
+        <h2> Trains </h2>
+      <!-- verified --> 
+      <div>
+        <p> Gares les plus proches du Domaine d’Essendiéras:
+          <ul>
+            <li> Thiviers (26 km) </li>
+            <li> Périgueux (39 km) </li>
+            <li> Limoges (60 km) </li>
+          </ul>
+        </p>
+        <p> Pour votre confort, un service de navette sera disponible depuis la gare de Limoges jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
+      </div>
+      <h2> Aéroports </h2>
+      <div>
+        <p> Aéroports les plus proches du Domaine d’Essendiéras:
+        <ul>
+          <li> Périgueux - Bassillac (34 km) </li>
+          <li> Brive - Vallée de la Dordogne (72 km) </li>
+          <li> Limoges - Bellegarde (73 km) </li>
+          <li> Bergerac - Dordogne Périgord (115 km) </li>
+          <li> Bordeaux - Mérignac (206 km) </li>
+        </ul>
+        </p>
+      </div>
+      <h2> En Voiture </h2>
+      <div>
+        <p> L'adresse: <br>
+        Lieu-dit Essendiéras <br>
+        24160 Saint Médard d’Excideuil <br>
+        DORDOGNE FRANCE </p>
 
-      <div>
-        <p> Gares les plus proches du Domaine d’Essendiéras:
-          <ul>
-            <li> Thiviers (26 km) </li>
-            <li> Périgueux (39 km) </li>
-            <li> Limoges (60 km) </li>
-          </ul>
-        </p>
-
-        <p> Les billets de train peuvent être réservés directement sur le <a href="https://fr.oui.sncf/en/train-ticket"> site web de la SNCF </a>. </p>
-
-        <p> Pour votre confort, un service de navette sera disponible depuis la gare de Limoges jusqu’au Domaine d’Essendiéras. Veuillez vérifier à nouveau à mesure que la date se rapproche, car de plus amples informations seront partagées ultérieurement. </p>
-      </div>
-
-      <h2> Aéroports </h2>
-
-      <div>
-        <p> Aéroports les plus proches du Domaine d’Essendiéras:
-        <ul>
-          <li> Périgueux - Bassillac (34 km) </li>
-          <li> Brive - Vallée de la Dordogne (72 km) </li>
-          <li> Limoges - Bellegarde (73 km) </li>
-          <li> Bergerac - Dordogne Périgord (115 km) </li>
-          <li> Bordeaux - Mérignac (206 km) </li>
-        </ul>
-        </p>
-      </div>
-
-      <h2> Conduite </h2>
-
-      <div>
-        <p> L'adresse: <br>
-        Lieu-dit Essendiéras <br>
-        24160 Saint Médard d’Excideuil <br>
-        DORDOGNE FRANCE </p>
-
-        <p> Juste après Limoges, prenez la sortie no. 36 de l'A20. Cela vous emmène sur une route secondaire confortable et captivante menant au domaine. La réception générale est située au pavillon du golf, suivez les panneaux «Réception». </P>
-      </div>
-
-      </div>
+        <p> Sortie 36 de l’A20 (Limoges). Suivre la D704 vers le sud pendant 50 km direction Saint Yrieix la Perche puis Lanouaille. Jusqu’à l’intersection avec la D705. <br/>
+        Sortie 17 de l’A89 (Brive-Perigueux). Suivre la D704 vers le nord pendant 20 km direction Saint Yrieix la Perche. Jusqu’à l’intersection avec la D705. <br/>
+        L’accueil général se situe au niveau du Clubhouse du Golf et est indiqué par un grand panneau « Reception ». </p>
+      </div>
+      </div>
     </div>
   </div>
 </template>

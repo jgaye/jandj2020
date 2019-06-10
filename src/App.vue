@@ -52,16 +52,16 @@
       <OurStory :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 2">
-      <Venue :language=selectedLanguage  />
+      <Photos :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 3">
-      <Travel :language=selectedLanguage  />
+      <Venue :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 4">
-      <UsVisitors :language=selectedLanguage  />
+      <Travel :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 5">
-      <Photos :language=selectedLanguage  />
+      <UsVisitors :language=selectedLanguage  />
     </div>
   </div>
 </template>
@@ -90,8 +90,8 @@ export default {
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
-      en_menu: ["Wedding", "Our Story","Venue","Travel","US Guests","Photos"],
-      fr_menu: ["Mariage", "Notre Histoire", "Le Domaine","Accès","Visiteurs Américains","Photos"]
+      en_menu: ["Wedding", "Our Story","Photos","Venue","Travel","US Guests"],
+      fr_menu: ["Mariage", "Notre Histoire", "Photos","Le Domaine","Accès"]
     }
   },
   methods: {

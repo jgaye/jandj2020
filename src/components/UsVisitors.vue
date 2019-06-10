@@ -93,7 +93,14 @@
     </div>
     <div v-if="language == 'french'">
       <div>
-        <p>Soyez gentils avec nos invités américains</p>
+        <h2>
+
+        </h2>
+      </div>
+      <div>
+        <p>
+          
+        </p>
       </div>
     </div>
   </div>
