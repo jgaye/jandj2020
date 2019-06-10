@@ -86,7 +86,7 @@ export default {
   },
   props: {
   },
-  data: function(){
+  data(){
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
@@ -101,7 +101,12 @@ export default {
     setLanguage: function(language){
       this.selectedLanguage = language
     }
-  }
+  },
+  mounted(){
+      if (window.location.pathname.includes('fr')){
+        this.setLanguage('french')
+      }
+  },
 }
 </script>
 
