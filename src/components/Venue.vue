@@ -5,9 +5,9 @@
         <h2>Accommodations</h2>
 
         <div class="textBox">
-          <p>Le Domaine d'Essendiéras offers plenty of options to accommodate your stay during the wedding. There are various <a href="http://www.essendieras.com/location/holiday-homes/">holiday homes</a> that can be rented on the property and are only a 15-minute walk to the main area of the domaine. <a href="http://www.essendieras.com/location/campsite/">Camping</a> is also an option for those interested.</p>
+          <p>Le Domaine d'Essendiéras offers plenty of options to accommodate your stay during the wedding. There are various <a href="http://www.essendieras.com/location/holiday-homes/">holiday homes</a> that can be rented on the property and are only a 15-minute walk to the main area of the domaine. <a href="http://www.essendieras.com/location/campsite/">Camping</a> is also an option for those interested. <span style="font-weight: bold">We encourage you to book your rental as soon as possible!</span></p> 
 
-          <p>Most rental properties on the domaine house at least 6 people. Not all rentals are available for a weekend stay, and some have a minimum of one week (keep in mind, the cost of the rental will decrease significantly when split amongst a group. We recommend booking your rental as soon as possible to secure your spot. For booking assitance, please contact the domaine directly at: <a href="mailto:info@essendieras.fr">info@essendieras.fr</a>.</p>
+          <p>Most rental properties on the domaine house at least 6 people. Not all rentals are available for a weekend stay, and some have a minimum of one week (keep in mind, the cost of the rental will decrease significantly when split amongst a group). We recommend booking your rental as soon as possible to secure your spot. For booking assitance, please contact the domaine directly at: <a href="mailto:info@essendieras.fr">info@essendieras.fr</a>.</p>
           
           <p>The domaine is not accessible by public transportation. If you plan on staying outside of the domaine or wish to leave the domaine property during your stay, it is advisable to rent a car. We will have a shuttle service available to access the domaine from the Limoges train station. More information is on the Travel page.</p>
 

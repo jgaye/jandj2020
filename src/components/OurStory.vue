@@ -109,7 +109,6 @@
         <h2>Nos Vœux</h2>  
 
         <div class="row">   
-      
           <div class="column">
             <!-- verified --> 
             <h2>Julia</h2>  
@@ -124,7 +123,7 @@
 
             <p> Je veux te donner le meilleur de moi-même et être la meilleure personne que tu vois en moi. </p>
 
-            <p> Le plus important, je fais le serment de toujours t'aimer et de toujours te respecter, inconditionnellement et de tout mon cœur. Même à l'âge de 296 ans. </p>
+            <p> Le plus important, je fais le serment de toujours t'aimer et de toujours te respecter, sans conditions et de tout mon cœur. Même à l'âge de 296 ans. </p>
 
             <p> Je t’aime, mon Boo. </p>
           </div>
@@ -171,6 +170,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
   img{
     width: 15vw;
     margin: 0.5vw;

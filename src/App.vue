@@ -55,12 +55,15 @@
       <Photos :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 3">
-      <Venue :language=selectedLanguage  />
+      <BridalParty :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 4">
-      <Travel :language=selectedLanguage  />
+      <Venue :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 5">
+      <Travel :language=selectedLanguage  />
+    </div>
+    <div v-if="activeIndex == 6">
       <UsVisitors :language=selectedLanguage  />
     </div>
   </div>
@@ -70,6 +73,7 @@
 import OurStory from './components/OurStory.vue'
 import Wedding from './components/Wedding.vue'
 import Photos from './components/Photos.vue'
+import BridalParty from './components/BridalParty.vue'
 import Venue from './components/Venue.vue'
 import Travel from './components/Travel.vue'
 import UsVisitors from './components/UsVisitors.vue'
@@ -80,6 +84,7 @@ export default {
     OurStory,
     Wedding,
     Photos,
+    BridalParty,
     Venue,
     Travel,
     UsVisitors
@@ -90,8 +95,8 @@ export default {
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
-      en_menu: ["Wedding", "Our Story","Photos","Venue","Travel","US Guests"],
-      fr_menu: ["Mariage", "Notre Histoire", "Photos","Le Domaine","Accès"]
+      en_menu: ["Wedding", "Our Story","Photos", "Wedding Party", "Venue","Travel","US Guests"],
+      fr_menu: ["Mariage", "Notre Histoire", "Photos", "Cortège","Le Domaine","Accès"]
     }
   },
   methods: {
@@ -239,6 +244,17 @@ export default {
     color: #404040;
   }
 
+  h5 {
+    font-family: 'Stalemate', cursive;
+    text-align: center;
+    margin: 5px 1px;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 40px;
+    color: #404040;
+  }
+
   p {
       font-weight: 400;
       font-style: normal;
@@ -263,4 +279,5 @@ export default {
     justify-content: center; 
     margin-bottom: 1.5em;
   }
+
 </style>
