@@ -10,7 +10,7 @@
 
       <div>
         <br>
-        <p>View our photo shoot in Montmartre at the Sacré-Cœur, by <a href="https://www.missparisphoto.com/">Krystal Kenny</a>.</p>
+        <p>View our photo shoot in Montmartre at the Sacré-Cœur, by <a target="_blank" href="https://www.missparisphoto.com/">Krystal Kenny</a>.</p>
       </div>
         
       <EngagmentPhotos></EngagmentPhotos>
@@ -27,7 +27,7 @@
       
       <div>
         <br>
-        <p>Visionnez notre séance photo à Montmartre au Sacré-Cœur, par <a href="https://www.missparisphoto.com/">Krystal Kenny</a>.</p>
+        <p>Visionnez notre séance photo à Montmartre au Sacré-Cœur, par <a target="_blank" href="https://www.missparisphoto.com/">Krystal Kenny</a>.</p>
       </div>
         
       <EngagmentPhotos></EngagmentPhotos>

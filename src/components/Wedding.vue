@@ -40,7 +40,7 @@
         <h2> Le Mariage </h2>
         <!-- verified --> 
         <div>
-          <p class = "wed"> Rejoignez-nous pour la célébration de notre mariage le: </p>
+          <p class = "wed"> Rejoignez-nous pour la célébration de notre mariage le : </p>
           <p class = "wed b">Samedi 8 Août 2020 à 16h</p>
           <img src = "../assets/divider.png">
           <p class = "wed">
@@ -50,14 +50,14 @@
             Dordogne, france
           </p>
           <img src = "../assets/divider.png">
-          <p style = "text-align: center">La cérémonie religieuse prendra place en fin d'après-midi. Elle sera suivie d'un cocktail, d'un dîner assis et d'une grande fête jusqu'au petit matin. S'il vous plaît, tenue correcte exigée ! 
+          <p style = "text-align: center">La cérémonie religieuse aura lieu en fin d'après-midi. Elle sera suivie d'un cocktail, d'un dîner assis et d'une grande fête jusqu'au petit matin. S'il vous plaît, tenue correcte exigée ! 
           <br/>
           <span class="note">Note: La cérémonie aura lieu dehors sur l'herbe.</span></p>
         </div>
 
         <h2> Brunch du Dimanche </h2>
         <div>
-          <p class = "wed"> Tous les invités sont invités à se joindre à nous pour un brunch au domaine: </p>
+          <p class = "wed"> Tous les invités sont invités à se joindre à nous pour un brunch au domaine : </p>
           <p class = "wed b">
             Dimanche 9 Août 2020 à 11h
           </p>

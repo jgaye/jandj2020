@@ -13,7 +13,7 @@
           </ul>
         </p>
 
-        <p>Train tickets can be booked directly on <a href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p>
+        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p>
 
         <p>A shuttle service will be available from the Limoges train station to Le Domaine d’Essendiéras for your convenience. Please check back as the date gets closer, as more information will be shared at a later time. </p>
       </div>
@@ -23,10 +23,7 @@
       <div>
         <p>Closest airports to Le Domaine d’Essendiéras:
         <ul>
-          <li>Périgueux – Bassillac (34 km/21 miles)</li>
-          <li>Brive – Vallée de la Dordogne (72 km/44 miles)</li>
           <li>Limoges – Bellegarde (73 km/45 miles)</li>
-          <li>Bergerac – Dordogne Perigord (115 km/71 miles)</li>
           <li>Bordeaux – Mérignac (206 km/128 miles)</li>
         </ul>
         </p>
@@ -50,7 +47,7 @@
         <h2> Trains </h2>
       <!-- verified --> 
       <div>
-        <p> Gares les plus proches du Domaine d’Essendiéras:
+        <p> Gares les plus proches du Domaine d’Essendiéras :
           <ul>
             <li> Thiviers (26 km) </li>
             <li> Périgueux (39 km) </li>
@@ -63,10 +60,7 @@
       <div>
         <p> Aéroports les plus proches du Domaine d’Essendiéras:
         <ul>
-          <li> Périgueux - Bassillac (34 km) </li>
-          <li> Brive - Vallée de la Dordogne (72 km) </li>
           <li> Limoges - Bellegarde (73 km) </li>
-          <li> Bergerac - Dordogne Périgord (115 km) </li>
           <li> Bordeaux - Mérignac (206 km) </li>
         </ul>
         </p>

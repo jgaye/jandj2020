@@ -17,13 +17,13 @@
         <h3>How do I renew my passport?</h3>
 
         <div>
-          <p>Renewing an adult passport is fairly simple and can be done from home. If you meet the listed requirements, you can <a href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/renew-by-mail.html">renew your passport by mail</a>. Otherwise, you need to <a href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/apply-in-person.html">renew your passport in person</a> at a <a href="https://iafdb.travel.state.gov/">passport acceptance facility</a>.</p>
+          <p>Renewing an adult passport is fairly simple and can be done from home. If you meet the listed requirements, you can <a target="_blank" href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/renew-by-mail.html">renew your passport by mail</a>. Otherwise, you need to <a target="_blank" href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/apply-in-person.html">renew your passport in person</a> at a <a target="_blank" href="https://iafdb.travel.state.gov/">passport acceptance facility</a>.</p>
         </div>
 
         <h3>How do I get a passport?</h3>
 
         <div>
-          <p>Your <a href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/apply-in-person.html">first passport</a> can only be applied for in person. There are step-by-step instructions of the required forms, paperwork, and photos to bring as part of your application.</p>
+          <p>Your <a target="_blank" href="https://travel.state.gov/content/travel/en/passports/apply-renew-passport/apply-in-person.html">first passport</a> can only be applied for in person. There are step-by-step instructions of the required forms, paperwork, and photos to bring as part of your application.</p>
         </div>
 
         <h3>Timeline</h3>

@@ -94,7 +94,7 @@
             <img src="../assets/IMG_8174.png"><br>Nous sommes<br/> tombés amoureux.
           </label>
           <label>
-            <img src="../assets/wedding.png"><br>Nous nous<br/> sommes mariés!
+            <img src="../assets/wedding.png"><br>Nous nous<br/> sommes mariés !
           </label>
         </div>
 
@@ -115,11 +115,11 @@
               
             <p> Julien, c’est difficile de mettre mes sentiments pour toi par écrit. Il y a quelque chose que je ne peux pas décrire comme ce que je ressens quand je regarde dans tes yeux ou quand tu me prends la main. </p>
 
-            <p> C’est le même sentiment que j'ai eu au Bok Bar sur le rooftop à Philadelphie, il y a près de trois ans. Tu m'as fait rire comme je n'avais encore jamais ri. Je me souviens avoir pensé: «Cet homme est le type d'homme avec lequel je pourrais passer ma vie.» À ce moment-là, je ne réalisais pas que je passerais ma vie avec toi. Merci de ne pas avoir renouncé (et même d'avoir beacoup insisté). </p>
+            <p> C’est le même sentiment que j'ai eu au Bok Bar sur le rooftop à Philadelphie, il y a près de trois ans. Tu m'as fait rire comme je n'avais encore jamais ri. Je me souviens avoir pensé: «Cet homme est le type d'homme avec lequel je pourrais passer ma vie.» À ce moment-là, je ne réalisais pas que je passerais ma vie avec toi. Merci de ne pas avoir renoncé (et même d'avoir beacoup insisté). </p>
 
-            <p> Être avec toi est merveilleux. Tu m'as accepté comme je suis, tu as pris soin de moi, tu m'as aimée. Nous avons construit notre vie ensemble, même si nous avons du faire des sacrifice et passer des moments pas faciles. La vie a fait de nous de meilleures personnes et nous sommes devenus les meilleurs copains du monde.</P>
+            <p> Être avec toi est merveilleux. Tu m'as accepté comme je suis, tu as pris soin de moi, tu m'as aimée. Nous avons construit notre vie ensemble, même si nous avons du faire des sacrifices et passer des moments pas faciles. La vie a fait de nous de meilleures personnes et nous sommes devenus les meilleurs copains du monde.</P>
 
-            <p> Puisque nous prenons pour prochaine étape le mariage,je fais le serment de garder le merveilleux et l'admiration dans notre relation. Apprendre des moments difficiles et les traverser en équipe. Faire le nécessaire pour être ensemble. Te soutenir dans les hauts comme dans les bas. Et faire de mon mieux pour être patiente.</p>
+            <p> Puisque nous prenons pour prochaine étape le mariage, je fais le serment de garder le merveilleux et l'admiration dans notre relation. Apprendre des moments difficiles et les traverser en équipe. Faire le nécessaire pour être ensemble. Te soutenir dans les hauts comme dans les bas. Et faire de mon mieux pour être patiente.</p>
 
             <p> Je veux te donner le meilleur de moi-même et être la meilleure personne que tu vois en moi. </p>
 
@@ -132,7 +132,7 @@
             <!-- NOT verified --> 
             <h2>Julien</h2>  
 
-            <p> Julia, Little Boo, ce n’est pas un exercice facile d’exprimer avec seulement quelques voeux à quel point je suis amoureuse de toi et combien j'ai envie de profiter de toutes les expériences de la vie avec toi, pour le reste de notre existence. </p>
+            <p> Julia, Little Boo, ce n’est pas un exercice facile d’exprimer avec seulement quelques voeux à quel point je suis amoureux de toi et combien j'ai envie de profiter de toutes les expériences de la vie avec toi, pour le reste de notre existence. </p>
 
             <p> Mais j'ai essayé de faire de mon mieux, et j'espère réussir à te faire verser une petite larme... </p>
 
@@ -184,6 +184,30 @@ export default {
     width: 100%;
     flex-grow: 1;
     padding: 0 15px;
+  }
+
+  .picture_strip {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 1.5em;
+  }
+
+  @media screen and (max-width: 640px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .column {
+      padding: 0px;
+    }
+
+    .picture_strip {
+      flex-direction: column;
+    }
+
+    .picture_strip label {
+      padding-bottom: 5px;
+    }
   }
   
 </style>
