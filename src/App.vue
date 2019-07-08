@@ -274,10 +274,4 @@ export default {
     font-size: 18px;
   }
 
-  .picture_strip {
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 1.5em;
-  }
-
 </style>
