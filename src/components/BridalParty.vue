@@ -144,4 +144,14 @@ export default {
     flex-grow: 1;
     padding: 0 20px;
   }
+
+  @media screen and (max-width: 640px) {
+    .row {
+      flex-direction: column;
+    }
+
+    .column {
+      padding: 0px;
+    }
+  }
 </style>
