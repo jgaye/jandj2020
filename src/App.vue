@@ -66,6 +66,12 @@
     <div v-if="activeIndex == 6">
       <UsVisitors :language=selectedLanguage  />
     </div>
+
+    <div class="footer">
+      <img src="./assets/wisteria-pointing-left.png">
+      <h6>This website was made with love by Julia and Julien. </h6>
+      <img src="./assets/wisteria-pointing-right.png">
+    </div>
   </div>
 </template>
 
@@ -214,6 +220,23 @@ export default {
     opacity: 1;
     zoom: 1.1;
   }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    color: white;
+    background-color: rgb(135, 181, 105, 0.8);
+    /*border-top: solid 1px silver;*/
+  }
+  .footer img{
+    display: block;
+    max-width:10vw;
+    max-height:5vw;
+    width: auto;
+    height: auto;
+  }
 
   h1 {
     font-family: 'Stalemate', cursive;
@@ -253,6 +276,16 @@ export default {
     line-height: 1;
     font-size: 40px;
     color: #404040;
+  }
+
+  h6 {
+    font-family: 'Avenir', cursive;
+    text-align: center;
+    margin: 5px 1px;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 14px;
   }
 
   p {
