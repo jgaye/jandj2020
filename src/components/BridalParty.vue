@@ -100,7 +100,7 @@
 
             <h5>Guénolé - Garçon d'Honneur</h5>
             <img src="../assets/Guenole.png">
-            <p class="bridal">Guénolé et Julien se sont liés d'amitié dans la liste des Pipocoptères à Brest, et en participant presque à tous les mêmes clubs de l'école. Pour Julien, Guénolé est l'ami sur lequel on peut toujours compter, que ce soit pour aider pour un (ou deux, ou trois !) déménagement, ou pour finir de corriger un article du journal de l'école à 5 heures du matin. Il est extrêmement fier d'avoir Guénolé comme garçon d'honneur, et rassuré de pouvoir compter sur son soutien.
+            <p class="bridal">Guénolé et Julien se sont liés d'amitié dans la liste des Pipocoptères à Brest, et en participant ensemble à de nombreux clubs étudiants. Pour Julien, Guénolé est l'ami sur lequel on peut toujours compter, que ce soit pour aider pour un (ou deux, ou trois !) déménagement, ou pour finir de corriger un article du journal de l'école à 5 heures du matin. Il est extrêmement fier d'avoir Guénolé comme garçon d'honneur, et rassuré de pouvoir compter sur son soutien.
             </p>
           </div>
         </div>
