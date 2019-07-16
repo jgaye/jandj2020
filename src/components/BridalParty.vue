@@ -40,7 +40,7 @@
 
             <h5>Antoine - Groomsman</h5>
             <img src="../assets/Antoine.png">
-            <p class="bridal">Julien has known Antoine, his older cousin, since he was born. As kids, they were always playing together during their summer and winter vacations, obsessing around the same books, movies, video games, etc. They continue having adventures each time they travel and during family events. Julien is very thankful for Antoine's presence at his and Julia's civil union and civil marriage, and that Antoine accepted to be his groomsman for this upcoming wedding celebration.
+            <p class="bridal">Julien has known Antoine, his older cousin, since he was born. As kids, they were always playing together during their summer and winter vacations, obsessing around the same books, movies, video games, etc. They continue having adventures each time they travel together or meet for family events. Julien is very thankful for Antoine's presence at his and Julia's civil union and civil marriage, and that Antoine accepted to be his groomsman for this upcoming wedding celebration.
             </p>
 
             <h5>Guénolé - Groomsman</h5>
@@ -64,7 +64,7 @@
 
             <h5>Alexandra - Dame d'Honneur</h5>
             <img src="../assets/alexandra.jpeg">
-            <p class="bridal">Julia est honorée d'avoir sa petite soeur Alex comme demoiselle d'honneur. Elles ont des personnalités très différentes, mais elles se retrouvent toujours dans leur amour du voyage, des "cheesesteaks," et de Big Brother, l'émission de télé-réalité. L'un des souvenirs préférés de Julia date de leur voyage en Islande, quand Alex l'aventureuse les a obligés à escalader une cascade abrupte. Julia n'oubliera jamais à quel point Alex était heureuse de courir à travers les montagnes Islandaise sans aucun souci au monde.
+            <p class="bridal">Julia est honorée d'avoir sa petite soeur Alex comme demoiselle d'honneur. Elles ont des personnalités très différentes, mais elles se retrouvent toujours dans leur amour du voyage, des "cheesesteaks," et de Big Brother, l'émission de télé-réalité. L'un des souvenirs préférés de Julia date de leur voyage en Islande, quand Alex, aventurière, les a obligés à escalader une cascade abrupte. Julia n'oubliera jamais à quel point Alex était heureuse de courir sur les collines Islandaise accidentées, sans se soucier du danger.
             </p>
           </div>
 
@@ -72,7 +72,7 @@
 
             <h5>Loris - Homme d'Honneur</h5>
             <img src="../assets/Loris.png">
-            <p class="bridal">Julien est très heureux et ému d'avoir Loris, son plus proche ami d'école d'ingénieur, comme homme d'honneur. Julien et Loris ont forgé leur profonde amitié en s'entraidant dans les clubs étudiants, que ce soit en faisant l'organisation Son & Lumière des soirés de l'école, ou en mettant en page le Coup de Venst jusqu'au petit matin. Ils ont tous deux beaucoup voyagé, et ont réussi à se retrouver à Montreal, New-York, Philadelphie, Londres, Saint-Etienne, Göteborg, ... Bref, ils ne sont jamais très loin l'un de l'autre. 
+            <p class="bridal">Julien est comblé que Loris, son plus proche ami d'école d'ingénieur, ait accepté d'être son homme d'honneur. Julien et Loris ont forgé leur profonde amitié en s'entraidant dans les clubs étudiants, tant en faisant l'animation Son & Lumière des soirées de l'école, ou en mettant en page le Coup de Venst jusqu'au bout de la nuit. Ils ont chacun beaucoup voyagé, et sont parvenus à se retrouver autour du monde, comme à Montreal, New-York, Philadelphie, Londres, La Palmyre, Göteborg, ... Bref, ils ne sont jamais très loin l'un de l'autre. 
             </p>
           </div>
 
@@ -82,12 +82,12 @@
 
             <h5>Sandra - Demoiselle d'Honneur</h5>
             <img src="../assets/Sandra.jpg">
-            <p class="bridal">Sandra et Julia sont devenues amies au lycée quand elles s'asseyaient à la même table au déjeuner. Sandra a vite compris à quel point sa nouvelle amie parlait fort ! À l’Université de Drexel, elles ont travaillé ensemble pour le journal étudiant et ont rapidement été connues comme "l’équipe des infos à deux têtes." Elles partagent un amour commun pour les Phillies et <a target="_blank" href="https://www.instagram.com/realmunothecat/">Muno</a>, le chat de Sandra. Sandra a toujours été l’une des plus grandes partisantes de Julia et elles ne pourraient pas survivre sans leur GChats quotidiens.
+            <p class="bridal">Sandra et Julia sont devenues amies au lycée quand elles s'asseyaient à la même table au déjeuner. Sandra a vite compris à quel point sa nouvelle amie parlait fort ! À l’Université de Drexel, elles ont travaillé ensemble pour le journal étudiant et ont rapidement été connues comme "l’équipe des infos à deux têtes." Elles partagent un amour commun pour les Phillies (l'équipe de base-ball de Philadelphie) et <a target="_blank" href="https://www.instagram.com/realmunothecat/">Muno</a>, le chat de Sandra. Sandra a toujours été l’un des plus grands soutiens de Julia et elles ne pourraient pas survivre sans leur GChats quotidiens.
             </p>
 
             <h5>Taylor - Demoiselle d'Honneur</h5>
             <img src="../assets/Taylor.jpeg">
-            <p class="bridal">Taylor et Julia se sont rencontrées dans la même classe de troisième année d'école primaire, lorsqu'elles jouaient dans la même équipe de football. Elles ont grandi ensemble en jouant au "jailbreak" et en regardant des films d'horreur. Leur amitié a continué à prospérer au fil des ans, à travers d'innombrables concerts du groupe Train, et de nombreuses visites dans des vignobles. Julia était ravie de se tenir aux côtés de Taylor le jour de son mariage et est comblée de voir Taylor faire de même pour elle.
+            <p class="bridal">Taylor et Julia se sont rencontrées à l'école primaire, lorsqu'elles jouaient dans la même équipe de football. Elles ont grandi ensemble en jouant au "jailbreak" et en regardant des films d'horreur. Leur amitié a continué de prospérer au fil des ans, à travers d'innombrables concerts du groupe Train, et de nombreuses visites dans des vignobles. Julia était ravie de se tenir aux côtés de Taylor le jour de son mariage et est comblée de voir Taylor faire de même pour elle.
             </p>
           </div>
 
@@ -95,7 +95,7 @@
 
             <h5>Antoine - Garçon d'Honneur</h5>
             <img src="../assets/Antoine.png">
-            <p class="bridal">Julien connaît Antoine, son cousin ainé d'un an, depuis sa naissance. Ils ont fait les 400 coups chaque vacances d'été et d'hiver, partageant les mêmes obsessions autour des livres, films, jeux vidéos... Ils continuent leurs aventures autour du monde à chaque voyage ensemble, et à chaque réunion de famille. Julien est très ému qu'Antoine ai pu être présent à sa cérémonie de PACS, de mariage civile, et qu'il puisse enfin prendre sa place d'honneur pour cette célébration du mariage en famille.
+            <p class="bridal">Julien connaît Antoine, son cousin ainé d'un an, depuis sa naissance. Ils ont fait les 400 coups chaque vacances d'été et d'hiver, partageant les mêmes passsions autour des livres, films et jeux. À chaque voyage ils se retrouvent, et à chaque réunion de famille ils sont présentes. Julien se rappelle avec émotion qu'Antoine fût présent lors des cérémonie de son PACS et de son mariage civile. Il est très heureux qu'il puisse prendre enfin sa place d'honneur pour cette célébration du mariage en famille.
             </p>
 
             <h5>Guénolé - Garçon d'Honneur</h5>
