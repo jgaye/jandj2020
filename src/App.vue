@@ -49,21 +49,24 @@
       <Wedding :language=selectedLanguage />
     </div>
     <div v-if="activeIndex == 1">
-      <OurStory :language=selectedLanguage  />
+      <RSVP :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 2">
-      <Photos :language=selectedLanguage  />
+      <OurStory :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 3">
-      <BridalParty :language=selectedLanguage  />
+      <Photos :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 4">
-      <Venue :language=selectedLanguage  />
+      <BridalParty :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 5">
-      <Travel :language=selectedLanguage  />
+      <Venue :language=selectedLanguage  />
     </div>
     <div v-if="activeIndex == 6">
+      <Travel :language=selectedLanguage  />
+    </div>
+    <div v-if="activeIndex == 7">
       <UsVisitors :language=selectedLanguage  />
     </div>
 
@@ -78,6 +81,7 @@
 <script>
 import OurStory from './components/OurStory.vue'
 import Wedding from './components/Wedding.vue'
+import RSVP from './components/RSVP.vue'
 import Photos from './components/Photos.vue'
 import BridalParty from './components/BridalParty.vue'
 import Venue from './components/Venue.vue'
@@ -89,11 +93,12 @@ export default {
   components: {
     OurStory,
     Wedding,
+    RSVP,
     Photos,
     BridalParty,
     Venue,
     Travel,
-    UsVisitors
+    UsVisitors,
   },
   props: {
   },
@@ -101,8 +106,8 @@ export default {
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
-      en_menu: ["Wedding", "Our Story","Photos", "Wedding Party", "Venue","Travel","US Guests"],
-      fr_menu: ["Mariage", "Notre Histoire", "Photos", "Cortège","Le Domaine","Accès"]
+      en_menu: ["Wedding", "RSVP", "Our Story", "Photos", "Wedding Party", "Venue", "Travel", "US Guests"],
+      fr_menu: ["Mariage", "RSVP", "Notre Histoire", "Photos", "Cortège", "Le Domaine", "Accès"]
     }
   },
   methods: {
