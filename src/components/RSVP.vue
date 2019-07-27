@@ -5,11 +5,11 @@
       <div class="pageRSVP">
         
         <div v-if="responseSent">
-          <h3>THANK YOU</h3>
+          <p>Thank you! Your response has been submitted.</p>
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>We are looking forward to celebrating with you! Kindly RSVP by April 1st.</p>
+            <p>We look forward to celebrating with you! Kindly RSVP by April 1st.</p>
             <label>Search your name:
               <input type="text" v-model="search" placeholder="Enter your name"/>
             </label>
@@ -33,9 +33,8 @@
                       <span>{{ guest.name }}</span>
                   </tr>
                   <div class="row" v-if="selectedGuest.plusOneOption">
-                    <label>Guest's name:
-                      <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
-                    </label>
+                    <label>Guest's name:</label>
+                    <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
                   </div>
                 </div>
               </p>
@@ -46,31 +45,32 @@
 
             <div class="eventRSVP">
               <div v-if="selectedGuest.inviteFriday">
-                  <label>Friday Dinner:
+                <div class="eventSelector">
+                  <label>Friday Dinner:</label>
                   <PlusMinusField v-model="selectedGuest.responseFriday" :min="0" :max="5"></PlusMinusField>
-                  </label>
+                </div>
               </div>
 
-              <label>Saturday Wedding:
+              <div class="eventSelector">
+                <label>Saturday Wedding:</label>
                 <PlusMinusField v-model="selectedGuest.responseSaturday" :min="0" :max="5"></PlusMinusField>
-              </label>
+              </div>
 
-              <label>Sunday Brunch:
+              <div class="eventSelector">
+                <label>Sunday Brunch:</label>
                 <PlusMinusField v-model="selectedGuest.responseSunday" :min="0" :max="5"></PlusMinusField>
-              </label>
+              </div>
             </div>    
           </div>
 
           <div class="row">
-            <label>Dietary Restrictions:
-              <input type="text" v-model="selectedGuest.specialDiet" placeholder="Cheesesteaks, please!" />
-            </label>
+            <label>Dietary Restrictions:</label>
+            <input type="text" v-model="selectedGuest.specialDiet" placeholder="Cheesesteaks, please!" />
           </div>
 
           <div class="row">
-            <label>Please provide an email for important updates.
-              <input type="text" v-model="selectedGuest.email" placeholder="My email" />
-            </label>
+            <label>Please provide an email for important updates.</label>
+            <input type="text" v-model="selectedGuest.email" placeholder="My email" />
           </div>
 
           <div class="button">
@@ -146,11 +146,19 @@ export default {
     },
     familyGuest() {
       return this.guests.filter(guest => guest.familyID === this.selectedGuest.familyID)
+    },
+    jsonBody() {
+      for (var key in this.selectedGuest) {
+        if (typeof this.selectedGuest[key] == 'string') {
+          this.selectedGuest[key] = this.selectedGuest[key].replace(/'/g,"’")
+        }
+      }
+      return JSON.stringify(this.selectedGuest)
     }
   },
   methods: {
     saveGuestInfo: function(guestID){ 
-      HTTP.post('guest/' + guestID, JSON.stringify(this.selectedGuest))
+      HTTP.post('guest/' + guestID, this.jsonBody)
       .then(response => {
           this.responseSent = 1;
           return response.data;
@@ -183,6 +191,7 @@ export default {
 
   .row {
     display: flex;
+    align-items: baseline;
   }
 
   .guestNames {
@@ -263,6 +272,25 @@ export default {
 
   p {
     margin-bottom: .5em;
+  }
+
+  @media screen and (max-width: 640px) {
+
+    .eventRSVP {
+      align-items: center;
+    }
+
+    .eventSelector {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .row {
+      padding-bottom: 2vh;
+      flex-direction: column;
+      text-align: left;
+    }
   }
 
 </style>

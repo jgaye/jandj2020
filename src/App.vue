@@ -1,73 +1,75 @@
 <template>
   <div id="app">
-    <div class="header">
-      <div class="header-content">
-        <div></div>
+    <div id="contentWrap">
+      <div class="header">
+        <div class="header-content">
+          <div></div>
 
-        <h1>Julia and Julien 2020</h1>
+          <h1>Julia and Julien 2020</h1>
 
-        <div class="language_selector">
-          <img 
-            v-on:click="setLanguage('english')" 
-            :class="{'active': selectedLanguage == 'english'}"
-            src="./assets/usa.png">
-          <img 
-            v-on:click="setLanguage('french')" 
-            :class="{'active': selectedLanguage == 'french'}"
-            src="./assets/france.png">
+          <div class="language_selector">
+            <img 
+              v-on:click="setLanguage('english')" 
+              :class="{'active': selectedLanguage == 'english'}"
+              src="./assets/usa.png">
+            <img 
+              v-on:click="setLanguage('french')" 
+              :class="{'active': selectedLanguage == 'french'}"
+              src="./assets/france.png">
+          </div>
         </div>
       </div>
-    </div>
-    <div v-if="selectedLanguage == 'english'">
-      <div class="menu"> 
-        <a class="navigation" href="#"
-          v-for="(item, index) in en_menu"
-          :key="item"
-          v-on:click="setActive(index)"
-          :class="{'active': index == activeIndex}"
-          >
-          {{item}}
-        </a>
+      <div v-if="selectedLanguage == 'english'">
+        <div class="menu"> 
+          <a class="navigation" href="#"
+            v-for="(item, index) in en_menu"
+            :key="item"
+            v-on:click="setActive(index)"
+            :class="{'active': index == activeIndex}"
+            >
+            {{item}}
+          </a>
+        </div>
       </div>
-    </div>
-    
-    <div v-else-if="selectedLanguage == 'french'">
-      <div class="menu"> 
-        <a class="navigation" href="#"
-          v-for="(item, index) in fr_menu"
-          :key="item"
-          v-on:click="setActive(index)"
-          :class="{'active': index == activeIndex}"
-          >
-          {{item}}
-        </a>
+      
+      <div v-else-if="selectedLanguage == 'french'">
+        <div class="menu"> 
+          <a class="navigation" href="#"
+            v-for="(item, index) in fr_menu"
+            :key="item"
+            v-on:click="setActive(index)"
+            :class="{'active': index == activeIndex}"
+            >
+            {{item}}
+          </a>
+        </div>
       </div>
-    </div>
-    
+      
 
-    <div v-if="activeIndex == 0">
-      <Wedding :language=selectedLanguage />
-    </div>
-    <div v-if="activeIndex == 1">
-      <RSVP :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 2">
-      <OurStory :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 3">
-      <Photos :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 4">
-      <BridalParty :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 5">
-      <Venue :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 6">
-      <Travel :language=selectedLanguage  />
-    </div>
-    <div v-if="activeIndex == 7">
-      <UsVisitors :language=selectedLanguage  />
+      <div v-if="activeIndex == 0">
+        <Wedding :language=selectedLanguage />
+      </div>
+      <div v-if="activeIndex == 1">
+        <RSVP :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 2">
+        <OurStory :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 3">
+        <Photos :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 4">
+        <BridalParty :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 5">
+        <Venue :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 6">
+        <Travel :language=selectedLanguage  />
+      </div>
+      <div v-if="activeIndex == 7">
+        <UsVisitors :language=selectedLanguage  />
+      </div>
     </div>
 
     <div class="footer">
@@ -139,6 +141,7 @@ export default {
 
   body{
     margin: 0;
+    height: 100vh;
   }
 
   #app {
@@ -148,6 +151,8 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin: none;
+    position: relative;
+    min-height: 100%;
   }
 
   .menu{
@@ -190,6 +195,10 @@ export default {
     text-align: left;
   }
 
+  #contentWrap {
+    padding-bottom: 2.5rem;
+  }
+
   .content {
     margin: 0 15%;
     max-width: 90vw;
@@ -226,6 +235,9 @@ export default {
     zoom: 1.1;
   }
   .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
