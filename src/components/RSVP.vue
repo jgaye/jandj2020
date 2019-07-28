@@ -25,15 +25,15 @@
         <div v-else>
           
           <div class="guestNames">
-            <p>Your Name: {{selectedGuest.name}}
-            <br><span class="notMe" v-on:click="setGuestID(0)">Oops. This is not me.</span></p>
-              <p>All members of your party: 
+            <p>My Name: {{selectedGuest.name}}
+            <br><span class="notMe" v-on:click="setGuestID(0)">Oops. This is not me!</span></p>
+              <p>All members of my party: 
                 <div class="familyNames">
                   <tr v-for='guest in familyGuest' v-bind:key='guest.name'>
                       <span>{{ guest.name }}</span>
                   </tr>
                   <div class="row" v-if="selectedGuest.plusOneOption">
-                    <label>Guest's name:</label>
+                    <label>My guest's name: </label>
                     <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
                   </div>
                 </div>
@@ -64,12 +64,12 @@
           </div>
 
           <div class="row">
-            <label>Dietary Restrictions:</label>
+            <label>Dietary restrictions: </label>
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Cheesesteaks, please!" />
           </div>
 
           <div class="row">
-            <label>Please provide an email for important updates.</label>
+            <label>I want to receive emails with important updates: </label>
             <input type="text" v-model="selectedGuest.email" placeholder="My email" />
           </div>
 
@@ -82,7 +82,83 @@
     </div>
 
     <div v-else-if="language == 'french'">
-      <div>
+      <h2>RSVP</h2>
+      <div class="pageRSVP">
+        
+        <div v-if="responseSent">
+          <p>Merci ! Votre réponse a bien été reçue.</p>
+        </div>
+        <div v-else-if="guestID == 0">
+          <div class="searchWrapper">
+            <p>Nous avons hâte de célébrer notre marriage avec vous ! Réponse souhaitée avant le 1er avril.</p>
+            <label>Tapez votre nom ici :
+              <input type="text" v-model="search" placeholder="Votre nom"/>
+            </label>
+
+            <div class="searchWrapper" v-if="sortedList.length <= 15">
+                <label><span style="font-style: italic;">Sélectionnez votre nom :</span></label>
+                <tr v-for='guest in sortedList' v-bind:key='guest.name'>
+                  <span class="selectName" v-on:click="setGuestID(guest.guestID)">{{ guest.name }}</span>
+                </tr>
+            </div>
+          </div>
+        </div>
+        <div v-else>
+          
+          <div class="guestNames">
+            <p>Mon nom : {{selectedGuest.name}}
+            <br><span class="notMe" v-on:click="setGuestID(0)">Oups. Ce n'est pas moi !</span></p>
+              <p>Les membres de ma famille : 
+                <div class="familyNames">
+                  <tr v-for='guest in familyGuest' v-bind:key='guest.name'>
+                      <span>{{ guest.name }}</span>
+                  </tr>
+                  <div class="row" v-if="selectedGuest.plusOneOption">
+                    <label>Le nom de mon invité : </label>
+                    <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
+                  </div>
+                </div>
+              </p>
+          </div>
+          
+          <div class="sectionRSVP">
+            <p>Je souhaite indiquer le nombre de membres de ma familles présents pour :</p>
+
+            <div class="eventRSVP">
+              <div v-if="selectedGuest.inviteFriday">
+                <div class="eventSelector">
+                  <label>Le dîner de vendredi :</label>
+                  <PlusMinusField v-model="selectedGuest.responseFriday" :min="0" :max="5"></PlusMinusField>
+                </div>
+              </div>
+
+              <div class="eventSelector">
+                <label>Le marriage samedi :</label>
+                <PlusMinusField v-model="selectedGuest.responseSaturday" :min="0" :max="5"></PlusMinusField>
+              </div>
+
+              <div class="eventSelector">
+                <label>Le brunch de dimanche :</label>
+                <PlusMinusField v-model="selectedGuest.responseSunday" :min="0" :max="5"></PlusMinusField>
+              </div>
+            </div>    
+          </div>
+
+          <div class="row">
+            <label>Allergies et restrictions alimentaîres : </label>
+            <input type="text" v-model="selectedGuest.specialDiet" placeholder="Les carottes sont cuites !" />
+          </div>
+
+          <div class="row">
+            <label>Je souhaite recevoir les futures correspondances par email : </label>
+            <input type="text" v-model="selectedGuest.email" placeholder="Mon email" />
+          </div>
+
+          <div class="button">
+            <button v-on:click="saveGuestInfo(guestID)">Confirmer</button>
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -192,6 +268,7 @@ export default {
   .row {
     display: flex;
     align-items: baseline;
+    margin-top: 10px;
   }
 
   .guestNames {
@@ -225,8 +302,9 @@ export default {
     border-radius: 3px;
     line-height: 2;
     padding: 1px 5px;
-    min-width: 100px;
+    min-width: 200px;
     font-size: 14px;
+    margin: 0px 5px;
 
   }
 

@@ -305,6 +305,12 @@ export default {
     font-size: 14px;
   }
 
+  h2.names {
+    padding: 0;
+    line-height: 1;
+    font-size: 60px;
+  }
+
   p {
       font-weight: 400;
       font-style: normal;

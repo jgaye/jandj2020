@@ -2,13 +2,18 @@
   <div class="content">
     <div v-if="language == 'english'">
       <div>
-        <h2>The Wedding</h2>
 
         <div>
-          <p class="wed">Please join us for our wedding celebration on:</p>
+          <p class="wed b">Together with their families,</p>
+
+          <h2 class="names">Julia Dorothea Casciato</h2>
+            <div style="text-align:center; margin-bottom:15px;">~ and ~</div>
+          <h2 class="names">Julien Vincent Pierre Gaye</h2>
 
           <p class="wed b">
-            Saturday, August 8, 2020 at 4pm
+            will happily celebrate their mariage on
+          </br>
+            Saturday, August 8, 2020 at 4pm.
           </p>
           <img src="../assets/divider.png">
           <p class="wed">
@@ -37,11 +42,18 @@
     </div>
     <div v-else-if="language == 'french'">
       <div>
-        <h2> Le Mariage </h2>
-        <!-- verified --> 
         <div>
-          <p class = "wed"> Rejoignez-nous pour la célébration de notre mariage le : </p>
-          <p class = "wed b">Samedi 8 Août 2020 à 16h</p>
+          <p class = "wed b">Accompagnés de leurs familles,</p>
+
+          <h2 class="names">Julia Dorothea Casciato</h2>
+            <div style="text-align:center; margin-bottom:15px;">~ et ~</div>
+          <h2 class="names">Julien Vincent Pierre Gaye</h2>
+
+          <p class = "wed b">
+            sont heureux de célébrer leur marriage
+          </br>
+            le samedi 8 Août 2020 à 16h.
+          </p>
           <img src = "../assets/divider.png">
           <p class = "wed">
             <span class = "b"> Le Domaine d'Essendiéras </span> <br>
