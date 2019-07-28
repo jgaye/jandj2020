@@ -12,7 +12,7 @@
 
           <p class="wed b">
             will happily celebrate their mariage on
-          </br>
+            <br>
             Saturday, August 8, 2020 at 4pm.
           </p>
           <img src="../assets/divider.png">
@@ -23,7 +23,7 @@
             Dordogne, France
           </p>
           <img src="../assets/divider.png">
-          <p style="text-align: center">There will be a late-afternoon religious ceremony, followed by cocktail hour, a sit-down dinner, and then the chance to party into the early morning hours. Please dress your best!
+          <p style="text-align: center">The religious ceremony will be followed by cocktail hour, a sit-down dinner, and then the chance to party into the early morning hours. Please dress your best!
           <br/>
           <span class="note">Note: The ceremony will take place outside on the grass.</span></p>
         </div>
@@ -51,7 +51,7 @@
 
           <p class = "wed b">
             sont heureux de célébrer leur marriage
-          </br>
+            <br>
             le samedi 8 Août 2020 à 16h.
           </p>
           <img src = "../assets/divider.png">
@@ -62,7 +62,7 @@
             Dordogne, france
           </p>
           <img src = "../assets/divider.png">
-          <p style = "text-align: center">La cérémonie religieuse aura lieu en fin d'après-midi. Elle sera suivie d'un cocktail, d'un dîner assis et d'une grande fête jusqu'au petit matin. S'il vous plaît, tenue correcte exigée ! 
+          <p style = "text-align: center">La cérémonie religieuse sera suivie d'un cocktail, d'un dîner assis et d'une grande fête jusqu'au petit matin. S'il vous plaît, tenue correcte exigée ! 
           <br/>
           <span class="note">Note: La cérémonie aura lieu dehors sur l'herbe.</span></p>
         </div>

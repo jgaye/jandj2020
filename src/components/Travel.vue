@@ -9,13 +9,15 @@
           <ul>
             <li>Thiviers (26 km/16 miles)</li>
             <li>Périgueux (39 km/24 miles)</li>
-            <li>Limoges (60 km/37 miles)</li>
+            <li>Limoges* (60 km/37 miles)</li>
           </ul>
         </p>
 
-        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p>
+        <p>*For your convenience, <b>a shuttle service will be available from the Limoges train station</b> to Le Domaine d’Essendiéras. Please check back as the date gets closer for more information. 
+        </p>
 
-        <p>A shuttle service will be available from the Limoges train station to Le Domaine d’Essendiéras for your convenience. Please check back as the date gets closer, as more information will be shared at a later time. </p>
+        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.
+        </p>
       </div>
 
       <h2>Airports</h2>
@@ -51,10 +53,10 @@
           <ul>
             <li> Thiviers (26 km) </li>
             <li> Périgueux (39 km) </li>
-            <li> Limoges (60 km) </li>
+            <li> Limoges* (60 km) </li>
           </ul>
         </p>
-        <p> Pour votre confort, un service de navette sera disponible depuis la gare de Limoges jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
+        <p>*Pour votre confort, <b>un service de navette sera disponible depuis la gare de Limoges</b> jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
       </div>
       <h2> Aéroports </h2>
       <div>
