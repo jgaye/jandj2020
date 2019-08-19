@@ -108,8 +108,8 @@ export default {
     return {
       activeIndex: 0,
       selectedLanguage: 'english',
-      en_menu: ["Wedding", "RSVP", "Our Story", "Photos", "Wedding Party", "Venue", "Travel", "US Guests"],
-      fr_menu: ["Mariage", "RSVP", "Notre Histoire", "Photos", "Cortège", "Le Domaine", "Accès"]
+      en_menu: ["Wedding", "RSVP", "Our Story", "Photos", "Wedding Party", "Venue and Accommodations", "Travel", "US Guests"],
+      fr_menu: ["Mariage", "RSVP", "Notre Histoire", "Photos", "Cortège", "Le Domaine et hébergement", "Accès"]
     }
   },
   methods: {
