@@ -19,57 +19,33 @@
           </div>
         </div>
       </div>
+
       <div v-if="selectedLanguage == 'english'">
-        <div class="menu"> 
-          <a class="navigation" href="#"
-            v-for="(item, index) in en_menu"
-            :key="item"
-            v-on:click="setActive(index)"
-            :class="{'active': index == activeIndex}"
-            >
-            {{item}}
-          </a>
+        <div class="menu">
+          <router-link class="navigation" to="/wedding">Wedding</router-link>
+          <router-link class="navigation" to="/rsvp">RSVP</router-link>
+          <router-link class="navigation" to="/our_story">Our Story</router-link>
+          <router-link class="navigation" to="/photos">Photos</router-link>
+          <router-link class="navigation" to="/bridal_party">Wedding Party</router-link>
+          <router-link class="navigation" to="/venue">Venue and Accommodations</router-link>
+          <router-link class="navigation" to="/travel">Travel</router-link>
+          <router-link class="navigation" to="/us_visitors">US Guests</router-link>
         </div>
       </div>
       
       <div v-else-if="selectedLanguage == 'french'">
-        <div class="menu"> 
-          <a class="navigation" href="#"
-            v-for="(item, index) in fr_menu"
-            :key="item"
-            v-on:click="setActive(index)"
-            :class="{'active': index == activeIndex}"
-            >
-            {{item}}
-          </a>
+        <div class="menu">
+          <router-link class="navigation" to="/wedding">Mariage</router-link>
+          <router-link class="navigation" to="/rsvp">RSVP</router-link>
+          <router-link class="navigation" to="/our_story">Notre Histoire</router-link>
+          <router-link class="navigation" to="/photos">Photos</router-link>
+          <router-link class="navigation" to="/bridal_party">Cortège</router-link>
+          <router-link class="navigation" to="/venue">Le Domaine et hébergement</router-link>
+          <router-link class="navigation" to="/travel">Accès</router-link>
         </div>
       </div>
-      
 
-      <div v-if="activeIndex == 0">
-        <Wedding :language=selectedLanguage />
-      </div>
-      <div v-if="activeIndex == 1">
-        <RSVP :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 2">
-        <OurStory :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 3">
-        <Photos :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 4">
-        <BridalParty :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 5">
-        <Venue :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 6">
-        <Travel :language=selectedLanguage  />
-      </div>
-      <div v-if="activeIndex == 7">
-        <UsVisitors :language=selectedLanguage  />
-      </div>
+      <router-view :language=selectedLanguage></router-view>
     </div>
 
     <div class="footer">
@@ -81,51 +57,29 @@
 </template>
 
 <script>
-import OurStory from './components/OurStory.vue'
-import Wedding from './components/Wedding.vue'
-import RSVP from './components/RSVP.vue'
-import Photos from './components/Photos.vue'
-import BridalParty from './components/BridalParty.vue'
-import Venue from './components/Venue.vue'
-import Travel from './components/Travel.vue'
-import UsVisitors from './components/UsVisitors.vue'
 
-export default {
-  name: 'app',
-  components: {
-    OurStory,
-    Wedding,
-    RSVP,
-    Photos,
-    BridalParty,
-    Venue,
-    Travel,
-    UsVisitors,
-  },
-  props: {
-  },
-  data(){
-    return {
-      activeIndex: 0,
-      selectedLanguage: 'english',
-      en_menu: ["Wedding", "RSVP", "Our Story", "Photos", "Wedding Party", "Venue and Accommodations", "Travel", "US Guests"],
-      fr_menu: ["Mariage", "RSVP", "Notre Histoire", "Photos", "Cortège", "Le Domaine et hébergement", "Accès"]
-    }
-  },
-  methods: {
-    setActive: function(index){
-      this.activeIndex = index
+  export default {
+    name: 'app',
+    components: {
     },
-    setLanguage: function(language){
-      this.selectedLanguage = language
-    }
-  },
-  mounted(){
-      if (window.location.hash.includes('fr')){
-        this.setLanguage('french')
+    props: {
+    },
+    data(){
+      return {
+        selectedLanguage: 'english',
+        }
+    },
+    methods: {
+      setLanguage: function(language){
+        this.selectedLanguage = language
       }
-  },
-}
+    },
+    mounted(){
+        if (window.location.hash.includes('fr')){
+          this.setLanguage('french')
+        }
+    },
+  }
 </script>
 
 <style>

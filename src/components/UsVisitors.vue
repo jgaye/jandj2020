@@ -94,13 +94,15 @@
     <div v-if="language == 'french'">
       <div>
         <h2>
-
+          Visiteurs des USA
         </h2>
       </div>
       <div>
         <p>
-          
+          Si vous êtes sur cette page, c'est que vous n'êtes pas un de nos visiteurs des USA !<br>
+          Vous pouvez retourner sur une autre page.
         </p>
+        <img style="margin-bottom: 20px;" src="../assets/france-loves-usa.jpg">
       </div>
     </div>
   </div>
