@@ -40,7 +40,7 @@
           <router-link class="navigation" to="/our_story">Notre Histoire</router-link>
           <router-link class="navigation" to="/photos">Photos</router-link>
           <router-link class="navigation" to="/bridal_party">Cortège</router-link>
-          <router-link class="navigation" to="/venue">Le Domaine et hébergement</router-link>
+          <router-link class="navigation" to="/venue">Le Domaine et Hébergement</router-link>
           <router-link class="navigation" to="/travel">Accès</router-link>
         </div>
       </div>
@@ -118,7 +118,7 @@
     margin-top: 1vh;
   }
 
-  a.navigation.active {
+  a.navigation.router-link-active {
     text-decoration: none;
     color: darkgreen;
     margin: 0 2vw;
