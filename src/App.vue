@@ -204,7 +204,7 @@
   .footer img{
     display: block;
     max-width:10vw;
-    max-height:5vw;
+    max-height:4vw;
     width: auto;
     height: auto;
   }
