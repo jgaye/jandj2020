@@ -11,7 +11,7 @@
           <h2 class="names">Julien Vincent Pierre Gaye</h2>
 
           <p class="wed b">
-            will happily celebrate their mariage on
+            will happily celebrate their marriage on
             <br>
             Saturday, August 8, 2020 at 4pm.
           </p>
