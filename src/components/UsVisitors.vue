@@ -2,6 +2,17 @@
   <div class="content">
     <div v-if="language == 'english'">
       <div>
+        <h2>"How do I get there?"</h2>
+
+        <div>
+          <p>There are three main steps to travel to the wedding from the US:</p>
+          <ul>
+            <li>Fly from the US to France, landing in a city such as Paris.</li>
+            <li>Take a train from that city to Limoges.</li> 
+            <li>From the Limoges train station, take our shuttle bus to the domaine.</li>
+          </ul>
+        </div>
+
         <h2>Passport</h2>
 
         <div>

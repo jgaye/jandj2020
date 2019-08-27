@@ -16,7 +16,7 @@
         <p>*For your convenience, <b>a shuttle service will be available from the Limoges train station</b> to Le Domaine d’Essendiéras. Please check back as the date gets closer for more information. 
         </p>
 
-        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.
+        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a> three months before your selected travel dates. Until then, set up travel alerts or look for train schedules on similar travel days to plan ahead.
         </p>
       </div>
 
