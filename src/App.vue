@@ -27,6 +27,7 @@
           <router-link class="navigation" to="/our_story">Our Story</router-link>
           <router-link class="navigation" to="/photos">Photos</router-link>
           <router-link class="navigation" to="/bridal_party">Wedding Party</router-link>
+          <router-link class="navigation" to="/wedding_list">Wedding List</router-link>
           <router-link class="navigation" to="/venue">Venue and Accommodations</router-link>
           <router-link class="navigation" to="/travel">Travel</router-link>
           <router-link class="navigation" to="/us_visitors">US Guests</router-link>
@@ -40,6 +41,7 @@
           <router-link class="navigation" to="/our_story">Notre Histoire</router-link>
           <router-link class="navigation" to="/photos">Photos</router-link>
           <router-link class="navigation" to="/bridal_party">Cortège</router-link>
+          <router-link class="navigation" to="/wedding_list">Liste de mariage</router-link>
           <router-link class="navigation" to="/venue">Le Domaine et Hébergement</router-link>
           <router-link class="navigation" to="/travel">Accès</router-link>
         </div>
