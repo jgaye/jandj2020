@@ -38,7 +38,8 @@
 import axios from 'axios';
 
 export const HTTP = axios.create({
-  baseURL: `https://dq55c3j7ge.execute-api.eu-west-3.amazonaws.com/v0/`,
+  baseURL: `https://dq55c3j7ge.execute-api.eu-west-3.amazonaws.com/v0`,
+  // baseURL: `https://api.jandj2020.wedding/`,
 })
 
 export default {
@@ -60,25 +61,19 @@ export default {
     .catch(error => {
        this.errors.push(error);
     });
-    // this.registry = [
-    //   {"giftID":0, "name":"kettle", "link":"https://google.com/search?q=kettle", "calledFor": false},
-    //   {"giftID":1, "name":"fondue", "link":"https://google.com/search?q=fondue", "calledFor": false},
-    //   {"giftID":2, "name":"this is a very long name to test if this wraps", "link":"https://google.com/search?q=cagnotte", "calledFor": true},
-    // ]
   },
   computed: {
   },
   methods: {
     callGiftFor: function(gift){ 
-      // HTTP.post('guest/' + guestID, this.jsonBody)
-      // .then(response => {
-      //     this.responseSent = 1;
-      //     return response.data;
-      // })
-      // .catch(error => {
-      //    this.errors.push(error);
-      // });
       gift.calledFor = true
+      HTTP.patch('registry/' + gift.idregistry, {})
+      .then(response => {
+          return response.data;
+      })
+      .catch(error => {
+         this.errors.push(error);
+      });
     },
   }
 }
