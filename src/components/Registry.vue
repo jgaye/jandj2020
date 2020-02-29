@@ -2,13 +2,14 @@
   <div class="content">
     <div v-if="language == 'english'">
       
-      <h2>Wedding List</h2>
-      <div class="pageWeddingList">
+      <h2>Wedding Registry</h2>
+      <div class="pageRegistry">
+
+        <p>Thank you for looking at our wedding registry. If you want to gift us money, there will be a cagnotte at the wedding.</p>
 
         <div class="listWrapper">
-          <tr class="listItem" v-for='gift in weddingList' v-bind:key='gift.name'>
-            <span>{{ gift.name }}</span>
-            <a v-bind:href="gift.link" >{{ gift.link }}</a>
+          <tr class="listItem" v-for='gift in registry' v-bind:key='gift.name'>
+            <a v-bind:href="gift.link" >{{ gift.name }}</a>
             <span v-if="gift.calledFor">
               <button class="button calledFor">This gift is called for</button>
             </span>
@@ -25,7 +26,7 @@
     <div v-else-if="language == 'french'">
       
       <h2>Liste de mariage</h2>
-      <div class="pageWeddingList">
+      <div class="pageRegistry">
         TODO
       </div>
         
@@ -41,29 +42,29 @@ export const HTTP = axios.create({
 })
 
 export default {
-  name: 'WeddingList',
+  name: 'Registry',
   props: {
     language: String,
   },
   data() {
     return {
-      weddingList: [],
+      registry: [],
       errors: [],
     }
   },
   mounted () {
-    // HTTP.get('wedding_list')
-    // .then(response => {
-    //    this.weddingList = response.data, "name";
-    // })
-    // .catch(error => {
-    //    this.errors.push(error);
-    // });
-    this.weddingList = [
-      {"giftID":0, "name":"kettle", "link":"https://google.com/search?q=kettle", "calledFor": false},
-      {"giftID":1, "name":"fondue", "link":"https://google.com/search?q=fondue", "calledFor": false},
-      {"giftID":2, "name":"this is a very long name to test if this wraps", "link":"https://google.com/search?q=cagnotte", "calledFor": true},
-    ]
+    HTTP.get('registry')
+    .then(response => {
+       this.registry = response.data, "name";
+    })
+    .catch(error => {
+       this.errors.push(error);
+    });
+    // this.registry = [
+    //   {"giftID":0, "name":"kettle", "link":"https://google.com/search?q=kettle", "calledFor": false},
+    //   {"giftID":1, "name":"fondue", "link":"https://google.com/search?q=fondue", "calledFor": false},
+    //   {"giftID":2, "name":"this is a very long name to test if this wraps", "link":"https://google.com/search?q=cagnotte", "calledFor": true},
+    // ]
   },
   computed: {
   },
@@ -85,9 +86,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .pageWeddingList {
-    display: flex;
-    justify-content: center;
+  .pageRegistry {
   }
 
   .listWrapper {

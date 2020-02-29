@@ -7,7 +7,7 @@ import RSVP from './components/RSVP.vue'
 import OurStory from './components/OurStory.vue'
 import Photos from './components/Photos.vue'
 import BridalParty from './components/BridalParty.vue'
-import WeddingList from './components/WeddingList.vue'
+import Registry from './components/Registry.vue'
 import Venue from './components/Venue.vue'
 import Travel from './components/Travel.vue'
 import UsVisitors from './components/UsVisitors.vue'
@@ -22,7 +22,7 @@ const routes = [
   { path: '/our_story', component: OurStory},
   { path: '/photos', component: Photos },
   { path: '/bridal_party', component: BridalParty },
-  { path: '/wedding_list', component: WeddingList },
+  { path: '/registry', component: Registry },
   { path: '/venue', component: Venue },
   { path: '/travel', component: Travel },
   { path: '/us_visitors', component: UsVisitors },
