@@ -5,32 +5,47 @@
       <h2>Wedding Registry</h2>
       <div class="pageRegistry">
 
-        <p>Thank you for looking at our wedding registry. If you want to gift us money, there will be a cagnotte at the wedding.</p>
+        <p>Your presence at wedding is the greatest gift of all. However, if you would like to honor us with a gift, you'll find our wish list below. Please feel no obligation to use this list.</p>
+        <p>If you do intend to gift a listed item, click the button next to the item, so other guests will know it's been purchased.</p>
 
         <div class="listWrapper">
           <tr class="listItem" v-for='gift in registry' v-bind:key='gift.name'>
-            <a v-bind:href="gift.link" >{{ gift.name }}</a>
+            
             <span v-if="gift.calledFor">
-              <button class="button calledFor">This gift is called for</button>
+              <button class="button calledFor">This gift has already been purchased.</button>
             </span>
             <span v-else>
-              <button class="button" v-on:click="callGiftFor(gift)">I want to purchase this</button>
+              <button class="button" v-on:click="callGiftFor(gift)">I purchased this item.</button>
             </span>
+            <a class="giftLink" v-bind:href="gift.link" >{{ gift.name }}</a>
           </tr>
         </div>
-
       </div>
-    
     </div>
 
     <div v-else-if="language == 'french'">
       
-      <h2>Liste de mariage</h2>
+      <h2>Liste de Mariage</h2>
       <div class="pageRegistry">
-        TODO
+        <p>Votre presence à notre mariage est le plus beau cadeau qui soit. Cependant, si vous souhaitez nous faire l'honneur d'un don matériel, vous trouverez ici notre liste de mariage. Ne vous sentez en aucun cas forcé à suivre cette liste.</p>
+        <p>Si vous souahitez acheter un objet de la liste, appuyez sur le bouton en tête de sa ligne, de façon à ce que les autres invités puissent savoir qu'il vous est reservé.</p>
+
+        <div class="listWrapper">
+          <tr class="listItem" v-for='gift in registry' v-bind:key='gift.name'>
+            
+            <span v-if="gift.calledFor">
+              <button class="button calledFor">Ce cadeau est déjà pris.</button>
+            </span>
+            <span v-else>
+              <button class="button" v-on:click="callGiftFor(gift)">J'ai achete ce cadeau.</button>
+            </span>
+            <a class="giftLink" v-bind:href="gift.link" >{{ gift.name }}</a>
+          </tr>
+        </div>
+
       </div>
-        
     </div>
+  
   </div>
 </template>
 
@@ -95,8 +110,14 @@ export default {
   .listItem {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    margin: 2vh;
+    margin-left: 20%;
+  }
+
+  .giftLink {
+    margin-left:2vw;
+    text-align: left;
   }
 
   button {
@@ -105,16 +126,13 @@ export default {
     color: white;
     border-radius: 4px;
     font-size: 14px;
-    cursor: pointer;;
-  }
-
-  .button {
-    margin-top: 3vh;
-    margin-bottom: 5vh;
+    cursor: pointer;
+    width: 140px;
   }
 
   .button.calledFor {
-      background-color: rgb(255, 0, 0, 0.8);
+      background-color: rgb(120, 120, 120, 0.8);
+      cursor: not-allowed;
   }
 
   p {

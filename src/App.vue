@@ -41,7 +41,7 @@
           <router-link class="navigation" to="/our_story">Notre Histoire</router-link>
           <router-link class="navigation" to="/photos">Photos</router-link>
           <router-link class="navigation" to="/bridal_party">Cortège</router-link>
-          <router-link class="navigation" to="/registry">Liste de mariage</router-link>
+          <router-link class="navigation" to="/registry">Liste de Mariage</router-link>
           <router-link class="navigation" to="/venue">Le Domaine et Hébergement</router-link>
           <router-link class="navigation" to="/travel">Accès</router-link>
         </div>
