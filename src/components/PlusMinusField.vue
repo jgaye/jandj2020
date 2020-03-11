@@ -55,7 +55,7 @@ export default {
   },
   watch: {
     value: {
-      handler: function (newVal, oldVal) {
+      handler: function (newVal) {
         this.newValue = newVal
       }
     }

@@ -16,8 +16,24 @@
         <p>*For your convenience, <b>a shuttle service will be available from the Limoges train station</b> to Le Domaine d’Essendiéras. Please check back as the date gets closer for more information. 
         </p>
 
-        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a> three months before your selected travel dates. Until then, set up travel alerts or look for train schedules on similar travel days to plan ahead.
-        </p>
+        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p> 
+        <p>For the guests arriving on <b>Friday</b>, the train times we recommend (based on travel time and cost) are:</p>
+        <p><ul>
+          <li>Departure 9:29 PARIS AUSTERLITZ</li>
+          <li>Arrival 12:46 LIMOGES BENEDICTINS</li>
+          <br>
+          <li>Departure 14:41 (2:41pm) PARIS AUSTERLITZ</li>
+          <li>Arrival 17:54 (5:54pm) LIMOGES BENEDICTINS</li>
+        </ul></p>
+        <p>For the guests arriving on <b>Saturday</b>, the train times we recommend (based on travel time and cost) are:</p>
+        <p><ul>
+          <li>Departure 8:29 PARIS AUSTERLITZ</li>
+          <li>Arrival 11:53 LIMOGES BENEDICTINS</li>
+          <br>
+          <li>Departure 9:29 PARIS AUSTERLITZ</li>
+          <li>Arrival 12:46 LIMOGES BENEDICTINS</li>
+        </ul></p>
+        <p><b>Please keep in mind, there's an additional hour travel time from the train station to the venue.</b></p>
       </div>
 
       <h2>Airports</h2>
@@ -57,6 +73,25 @@
           </ul>
         </p>
         <p>*Pour votre confort, <b>un service de navette sera disponible depuis la gare de Limoges</b> jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
+
+        <p>Pour les invités arrivant le <b>Vendredi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
+        <p><ul>
+          <li>Départ 9h29 PARIS AUSTERLITZ</li>
+          <li>Arrivée 12h46 LIMOGES BENEDICTINS</li>
+          <br>
+          <li>Départ 14h41 PARIS AUSTERLITZ</li>
+          <li>Arrivée 17h54 LIMOGES BENEDICTINS</li>
+        </ul></p>
+        <p>Pour les invités arrivant le <b>Samedi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
+        <p><ul>
+          <li>Départ 8h29 PARIS AUSTERLITZ</li>
+          <li>Arrivée 11h53 LIMOGES BENEDICTINS</li>
+          <br>
+          <li>Départ 9h29 PARIS AUSTERLITZ</li>
+          <li>Arrivée 12h46 LIMOGES BENEDICTINS</li>
+        </ul></p>
+        <p><b>Veuillez noter qu'il y a un temps de trajet supplémentaire entre la gare et le domaine.</b></p>
+
       </div>
       <h2> Aéroports </h2>
       <div>
@@ -80,6 +115,7 @@
       </div>
       </div>
     </div>
+    <br>
   </div>
 </template>
 

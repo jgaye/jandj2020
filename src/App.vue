@@ -27,7 +27,7 @@
           <router-link class="navigation" to="/our_story">Our Story</router-link>
           <router-link class="navigation" to="/photos">Photos</router-link>
           <router-link class="navigation" to="/bridal_party">Wedding Party</router-link>
-          <router-link class="navigation" to="/registry">Wedding Registry</router-link>
+          <router-link class="navigation" to="/registry">Registry</router-link>
           <router-link class="navigation" to="/venue">Venue and Accommodations</router-link>
           <router-link class="navigation" to="/travel">Travel</router-link>
           <router-link class="navigation" to="/us_visitors">US Guests</router-link>
