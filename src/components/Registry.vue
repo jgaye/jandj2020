@@ -15,10 +15,16 @@
               <button class="button calledFor">This gift has already been purchased.</button>
             </span>
             <span v-else>
-              <button class="button" v-on:click="callGiftFor(gift)">I purchased this item.</button>
+              <button class="button" v-on:click="showModal(gift.idregistry)">I purchased this item.</button>
             </span>
             <a class="giftLink" v-bind:href="gift.link" >{{ gift.name }}</a>
           </tr>
+          <modal v-show="isModalVisible"
+            :id="selectedIdRegistry"
+            :language="language"
+            v-on:cancel="cancelModal()" 
+            @validate="validateModal">
+          </modal>
         </div>
       </div>
     </div>
@@ -37,10 +43,16 @@
               <button class="button calledFor">Ce cadeau est déjà pris.</button>
             </span>
             <span v-else>
-              <button class="button" v-on:click="callGiftFor(gift)">J'ai achete ce cadeau.</button>
+              <button class="button" v-on:click="showModal(gift.idregistry)">J'ai achete ce cadeau.</button>
             </span>
             <a class="giftLink" v-bind:href="gift.link" >{{ gift.name }}</a>
           </tr>
+          <modal v-show="isModalVisible"
+            :id="selectedIdRegistry"
+            :language="language"
+            v-on:cancel="cancelModal()" 
+            @validate="validateModal">
+          </modal>
         </div>
 
       </div>
@@ -51,6 +63,7 @@
 
 <script>
 import axios from 'axios';
+import Modal from './Modal.vue'
 
 export const HTTP = axios.create({
   baseURL: `https://dq55c3j7ge.execute-api.eu-west-3.amazonaws.com/v0`,
@@ -59,6 +72,9 @@ export const HTTP = axios.create({
 
 export default {
   name: 'Registry',
+  components: {
+    Modal
+  },
   props: {
     language: String,
   },
@@ -66,6 +82,8 @@ export default {
     return {
       registry: [],
       errors: [],
+      isModalVisible: false,
+      selectedIdRegistry: 0,
     }
   },
   mounted () {
@@ -80,9 +98,11 @@ export default {
   computed: {
   },
   methods: {
-    callGiftFor: function(gift){ 
+    callGiftFor: function(id, calledBy){ 
+      const gift = this.registry.find(item => item.idregistry === id)
+      const datetime = new Date().toISOString()
       gift.calledFor = true
-      HTTP.patch('registry/' + gift.idregistry, {})
+      HTTP.patch('registry/' + gift.idregistry, JSON.stringify({"calledBy":calledBy, "timeCalledFor":datetime}))
       .then(response => {
           return response.data;
       })
@@ -90,6 +110,17 @@ export default {
          this.errors.push(error);
       });
     },
+    showModal(id) {
+      this.selectedIdRegistry = id
+      this.isModalVisible = true;
+    },
+    cancelModal() {
+      this.isModalVisible = false;
+    },
+    validateModal(calledBy) {
+      this.callGiftFor(this.selectedIdRegistry, calledBy)
+      this.isModalVisible = false;
+    }
   }
 }
 </script>
