@@ -13,7 +13,8 @@
           <p class="wed b">
             will happily celebrate their marriage on
             <br>
-            Saturday, August 8, 2020 at 4pm.
+            <span class="strikeThrough">Saturday, August 8, 2020 at 4pm.</span><br>
+            Wednesday, August 4, 2021 at 4pm.
           </p>
           <img src="../assets/divider.png">
           <p class="wed">
@@ -28,13 +29,13 @@
           <span class="note">Note: The ceremony will take place outside on the grass.</span></p>
         </div>
 
-        <h2>Sunday Brunch</h2>
+        <h2>Thursday Brunch</h2>
 
         <div>
           <p class="wed">All guests are invited to join us for brunch at the domaine:</p>
 
           <p class="wed b">
-            Sunday, August 9, 2020 at 11am
+            Thursday, August 5, 2021 at 11am
           </p>
         </div>    
 
@@ -49,11 +50,13 @@
             <div style="text-align:center; margin-bottom:15px;">~ et ~</div>
           <h2 class="names">Julien Vincent Pierre Gaye</h2>
 
-          <p class = "wed b">
+          <p class="wed b">
             sont heureux de célébrer leur mariage
             <br>
-            le samedi 8 Août 2020 à 16h.
+            <span class="strikeThrough">le samedi 8 Août 2020 à 16h.</span><br>
+            le mardi 4 Août 2021 à 16h.
           </p>
+
           <img src = "../assets/divider.png">
           <p class = "wed">
             <span class = "b"> Le Domaine d'Essendiéras </span> <br>
@@ -67,11 +70,11 @@
           <span class="note">Note: La cérémonie aura lieu dehors sur l'herbe.</span></p>
         </div>
 
-        <h2> Brunch du Dimanche </h2>
+        <h2> Brunch du Jeudi </h2>
         <div>
           <p class = "wed"> Tous les invités sont invités à se joindre à nous pour un brunch au domaine : </p>
           <p class = "wed b">
-            Dimanche 9 Août 2020 à 11h
+            Jeudi 5 Août 2021 à 11h
           </p>
         </div>
       </div>
@@ -102,5 +105,10 @@ export default {
     text-align: center;
     font-style: italic;
     font-size: smaller;
+  }
+
+  .strikeThrough{
+    font-size: small;
+    text-decoration: line-through;
   }
 </style>

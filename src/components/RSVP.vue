@@ -9,7 +9,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>We look forward to celebrating with you! Kindly RSVP by April 1st.</p>
+            <p>We look forward to celebrating with you! Kindly RSVP by April 1st 2021.</p>
             <label>Search your name:
               <input type="text" v-model="search" placeholder="Enter your name"/>
             </label>
