@@ -150,7 +150,7 @@
             <label>Mes allergies et restrictions alimentaires : </label>
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Les carottes sont cuites !" />
           </div>
-          
+
           <div class="row">
             <label>Mon adresse email pour recevoir les futures correspondances de la part des mariés : </label>
             <input type="text" v-model="selectedGuest.email" placeholder="moi@email.com" />
@@ -225,13 +225,14 @@ export default {
       return this.guests.filter(guest => guest.familyID === this.selectedGuest.familyID)
     },
     jsonBody() {
-      var copiedSelectedGuest = [...this.selectedGuest]
-      for (var key in this.selectedGuest) {
-        if (typeof this.selectedGuest[key] == 'string') {
-          copiedSelectedGuest[key] = this.copiedSelectedGuest[key].replace(/'/g,"’")
+      var copiedSelectedGuest = {...this.selectedGuest}
+      for (var key in copiedSelectedGuest) {
+        if (typeof copiedSelectedGuest[key] == 'string') {
+          copiedSelectedGuest[key] = copiedSelectedGuest[key].replace(/'/g,"’")
         }
       }
-      return JSON.stringify(this.selectedGuest)
+      console.log(JSON.stringify(copiedSelectedGuest))
+      return JSON.stringify(copiedSelectedGuest)
     }
   },
   methods: {
