@@ -5,7 +5,7 @@
       <h2>Wedding Registry</h2>
       <div class="pageRegistry">
 
-        <p>Your presence at wedding is the greatest gift of all. However, if you would like to honor us with a gift, you'll find our wish list below. Please feel no obligation to use this list.</p>
+        <p>Your presence at wedding is the greatest gift of all. However, if you would like to honor us with a gift, you'll find a card box our wish list below. Please feel no obligation to use this list.</p>
         <p>If you do intend to gift a listed item, click the button next to the item, so other guests will know it's been purchased.</p>
 
         <div class="listWrapper">
@@ -33,7 +33,8 @@
       
       <h2>Liste de Mariage</h2>
       <div class="pageRegistry">
-        <p>Votre presence à notre mariage est le plus beau cadeau qui soit. Cependant, si vous souhaitez nous faire l'honneur d'un don matériel, vous trouverez ici notre liste de mariage. Ne vous sentez en aucun cas forcé à suivre cette liste.</p>
+        <p>Votre presence à notre mariage est le plus beau cadeau qui soit. Cependant, si vous souhaitez nous faire un don pécunier pour nous aider à partir en voyage de noce, ou à acheter un foyer, nous aurons une boîte à dons à votre disposition lors de notre réception.</p>
+        <p>Pour ceux qui préférent un cadeau physique, vous trouverez ci dessous notre liste de mariage. Ne vous sentez en aucun cas forcé à suivre cette liste.</p>
         <p>Si vous souahitez acheter un objet de la liste, appuyez sur le bouton en tête de sa ligne, de façon à ce que les autres invités puissent savoir qu'il vous est reservé.</p>
 
         <div class="listWrapper">

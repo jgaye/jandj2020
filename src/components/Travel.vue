@@ -17,7 +17,7 @@
         </p>
 
         <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p> 
-        <p>For the guests arriving on <b>Friday</b>, the train times we recommend (based on travel time and cost) are:</p>
+        <p>For the guests arriving on <b>Tuesday</b>, the train times we recommend (based on travel time and cost) are:</p>
         <p><ul>
           <li>Departure 9:29 PARIS AUSTERLITZ</li>
           <li>Arrival 12:46 LIMOGES BENEDICTINS</li>
@@ -25,7 +25,7 @@
           <li>Departure 14:41 (2:41pm) PARIS AUSTERLITZ</li>
           <li>Arrival 17:54 (5:54pm) LIMOGES BENEDICTINS</li>
         </ul></p>
-        <p>For the guests arriving on <b>Saturday</b>, the train times we recommend (based on travel time and cost) are:</p>
+        <p>For the guests arriving on <b>Wednesday</b>, the train times we recommend (based on travel time and cost) are:</p>
         <p><ul>
           <li>Departure 8:29 PARIS AUSTERLITZ</li>
           <li>Arrival 11:53 LIMOGES BENEDICTINS</li>
@@ -74,7 +74,7 @@
         </p>
         <p>*Pour votre confort, <b>un service de navette sera disponible depuis la gare de Limoges</b> jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
 
-        <p>Pour les invités arrivant le <b>Vendredi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
+        <p>Pour les invités arrivant le <b>Mardi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
         <p><ul>
           <li>Départ 9h29 PARIS AUSTERLITZ</li>
           <li>Arrivée 12h46 LIMOGES BENEDICTINS</li>
@@ -82,7 +82,7 @@
           <li>Départ 14h41 PARIS AUSTERLITZ</li>
           <li>Arrivée 17h54 LIMOGES BENEDICTINS</li>
         </ul></p>
-        <p>Pour les invités arrivant le <b>Samedi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
+        <p>Pour les invités arrivant le <b>Mercredi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
         <p><ul>
           <li>Départ 8h29 PARIS AUSTERLITZ</li>
           <li>Arrivée 11h53 LIMOGES BENEDICTINS</li>

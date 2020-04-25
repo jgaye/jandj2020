@@ -9,7 +9,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>We look forward to celebrating with you! Kindly RSVP by April 1st 2021.</p>
+            <p>We look forward to celebrating with you! Kindly RSVP by April 1, 2021.</p>
             <label>Search your name:
               <input type="text" v-model="search" placeholder="Enter your name"/>
             </label>
@@ -69,11 +69,8 @@
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Cheesesteaks, please!" />
           </div>
 
-          <br>
-          
-          <p>For important updates from the bride and groom</p>
           <div class="row">
-            <label>My email address: </label>
+            <label>My email address for important updates from the bride and groom: </label>
             <input type="text" v-model="selectedGuest.email" placeholder="me@email.com" />
           </div>
 
@@ -94,7 +91,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>Nous avons hâte de célébrer notre mariage avec vous ! Réponse souhaitée avant le 1er avril.</p>
+            <p>Nous avons hâte de célébrer notre mariage avec vous ! Réponse souhaitée avant le 1er avril 2021.</p>
             <label>Tapez votre nom ici :
               <input type="text" v-model="search" placeholder="Votre nom"/>
             </label>
@@ -153,11 +150,9 @@
             <label>Mes allergies et restrictions alimentaires : </label>
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Les carottes sont cuites !" />
           </div>
-
-          <br>
-          <p>Pour recevoir les futures correspondances de la part des mariés</p>
+          
           <div class="row">
-            <label>Mon adresse email : </label>
+            <label>Mon adresse email pour recevoir les futures correspondances de la part des mariés : </label>
             <input type="text" v-model="selectedGuest.email" placeholder="moi@email.com" />
           </div>
 

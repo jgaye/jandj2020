@@ -5,7 +5,7 @@
         <div class="header-content">
           <div></div>
 
-          <h1>Julia and Julien 2020</h1>
+          <h1>Julia and Julien 2021</h1>
 
           <div class="language_selector">
             <img 

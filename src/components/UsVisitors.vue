@@ -22,7 +22,7 @@
         <h3>Is my passport valid?</h3>
 
         <div>
-          <p>If you have a passport, check the expiration date. Your passport’s expiration date cannot be within 6 months of your expected return to your home county. This means if you intend to travel from August 1-14, 2020, then your passport must not expire until after February 14, 2020. If your passport’s expiration date is prior to February 14, 2020, you will be denied entry and not allowed to board your plane. To avoid this, renew your passport a few months before you plan to travel.</p>
+          <p>If you have a passport, check the expiration date. Your passport’s expiration date cannot be within 6 months of your expected return to your home county. This means if you intend to travel from August 1-14, 2021, then your passport must not expire until after February 14, 2021. If your passport’s expiration date is prior to February 14, 2021, you will be denied entry and not allowed to board your plane. To avoid this, renew your passport a few months before you plan to travel.</p>
         </div>
 
         <h3>How do I renew my passport?</h3>

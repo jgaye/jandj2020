@@ -22,7 +22,7 @@
         <div>
           <p>Julia and Julien first met in the summer of 2016 working at the same Philadelphia-based startup. Julien was in the US on a six-month work visa, and Julia was hired following her university graduation. They quickly struck up a friendship, and it wasn’t long before Julien admitted his feelings for Julia, and (eventually) she admitted the same.</p>
 
-          <p>The two were inseparable until Julien’s return to France, but the distance couldn’t keep them apart. Eight months later, Julia moved to Paris and they started to build their life together. On March 30, 2019, they married during a civil ceremony in Croissy-sur-Seine. Julia and Julien are excited to celebrate their love and commitment with all of their family and friends from both sides of the Atlantic in 2020.</p>
+          <p>The two were inseparable until Julien’s return to France, but the distance couldn’t keep them apart. Eight months later, Julia moved to Paris and they started to build their life together. On March 30, 2019, they married during a civil ceremony in Croissy-sur-Seine. Julia and Julien are excited to celebrate their love and commitment with all of their family and friends from both sides of the Atlantic in 2021.</p>
         </div>
 
         </div>
@@ -101,7 +101,7 @@
         <div>
           <p> Julia et Julien se sont rencontrés pour la première fois à l'été 2016 dans la même startup basée à Philadelphie. Ils ont rapidement noué une amitié, et Julien n’a pas tardé à admettre ses sentiments pour Julia, et (finalement) elle a admis la même chose. </p>
 
-          <p> Les deux étaient inséparables jusqu’au depart de Julien pour la France, mais la distance ne pouvait les séparer. Huit mois plus tard, Julia a déménagé à Paris et ils ont commencé à se construire une vie commune. Le 30 mars 2019, ils se sont mariés lors d'une cérémonie civile à Croissy-sur-Seine. Julia et Julien sont ravis de célébrer de nouveau leur amour et leur engagement en 2020 avec toute leur famille et leurs amis venus des deux côtés de l’Atlantique. </p>
+          <p> Les deux étaient inséparables jusqu’au depart de Julien pour la France, mais la distance ne pouvait les séparer. Huit mois plus tard, Julia a déménagé à Paris et ils ont commencé à se construire une vie commune. Le 30 mars 2019, ils se sont mariés lors d'une cérémonie civile à Croissy-sur-Seine. Julia et Julien sont ravis de célébrer de nouveau leur amour et leur engagement en 2021 avec toute leur famille et leurs amis venus des deux côtés de l’Atlantique. </p>
         </div>
 
         </div>
