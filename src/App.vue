@@ -125,7 +125,7 @@
     color: darkgreen;
     margin: 0 2vw;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     cursor: pointer;
   }
 
