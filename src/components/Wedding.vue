@@ -50,7 +50,7 @@
           <h2 class="names">Julien Vincent Pierre Gaye</h2>
 
           <p class = "wed b">
-            sont heureux de célébrer leur marriage
+            sont heureux de célébrer leur mariage
             <br>
             le samedi 8 Août 2020 à 16h.
           </p>

@@ -27,7 +27,8 @@
           <div class="guestNames">
             <p>My Name: {{selectedGuest.name}}
             <br><span class="notMe" v-on:click="setGuestID(0)">Oops. This is not me!</span></p>
-              <p>All members of my party: 
+              <div class="familyArea">
+                <p>All members of my party: </p>
                 <div class="familyNames">
                   <tr v-for='guest in familyGuest' v-bind:key='guest.name'>
                       <span>{{ guest.name }}</span>
@@ -37,7 +38,7 @@
                     <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
                   </div>
                 </div>
-              </p>
+              </div>
           </div>
           
           <div class="sectionRSVP">
@@ -46,31 +47,34 @@
             <div class="eventRSVP">
               <div v-if="selectedGuest.inviteFriday">
                 <div class="eventSelector">
-                  <label>Friday Dinner:</label>
+                  <label>Tuesday Dinner:</label>
                   <PlusMinusField v-model="selectedGuest.responseFriday" :min="0" :max="5"></PlusMinusField>
                 </div>
               </div>
 
               <div class="eventSelector">
-                <label>Saturday Wedding:</label>
+                <label>Wednesday Wedding:</label>
                 <PlusMinusField v-model="selectedGuest.responseSaturday" :min="0" :max="5"></PlusMinusField>
               </div>
 
               <div class="eventSelector">
-                <label>Sunday Brunch:</label>
+                <label>Thursday Brunch:</label>
                 <PlusMinusField v-model="selectedGuest.responseSunday" :min="0" :max="5"></PlusMinusField>
               </div>
             </div>    
           </div>
 
           <div class="row">
-            <label>Dietary restrictions: </label>
+            <label>My dietary restrictions: </label>
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Cheesesteaks, please!" />
           </div>
 
+          <br>
+          
+          <p>For important updates from the bride and groom</p>
           <div class="row">
-            <label>I want to receive emails with important updates: </label>
-            <input type="text" v-model="selectedGuest.email" placeholder="My email" />
+            <label>My email address: </label>
+            <input type="text" v-model="selectedGuest.email" placeholder="me@email.com" />
           </div>
 
           <div class="button">
@@ -90,7 +94,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>Nous avons hâte de célébrer notre marriage avec vous ! Réponse souhaitée avant le 1er avril.</p>
+            <p>Nous avons hâte de célébrer notre mariage avec vous ! Réponse souhaitée avant le 1er avril.</p>
             <label>Tapez votre nom ici :
               <input type="text" v-model="search" placeholder="Votre nom"/>
             </label>
@@ -108,7 +112,8 @@
           <div class="guestNames">
             <p>Mon nom : {{selectedGuest.name}}
             <br><span class="notMe" v-on:click="setGuestID(0)">Oups. Ce n'est pas moi !</span></p>
-              <p>Les membres de ma famille : 
+              <div class="familyArea">
+                <p>Les membres de ma famille : </p>
                 <div class="familyNames">
                   <tr v-for='guest in familyGuest' v-bind:key='guest.name'>
                       <span>{{ guest.name }}</span>
@@ -118,8 +123,8 @@
                     <input type="text" v-model="selectedGuest.plusOneName" placeholder="Name"/>
                   </div>
                 </div>
-              </p>
-          </div>
+              </div>
+           </div>
           
           <div class="sectionRSVP">
             <p>Je souhaite indiquer le nombre de membres de ma familles présents pour :</p>
@@ -127,31 +132,33 @@
             <div class="eventRSVP">
               <div v-if="selectedGuest.inviteFriday">
                 <div class="eventSelector">
-                  <label>Le dîner de vendredi :</label>
+                  <label>Le dîner de mardi :</label>
                   <PlusMinusField v-model="selectedGuest.responseFriday" :min="0" :max="5"></PlusMinusField>
                 </div>
               </div>
 
               <div class="eventSelector">
-                <label>Le marriage samedi :</label>
+                <label>Le mariage mercredi :</label>
                 <PlusMinusField v-model="selectedGuest.responseSaturday" :min="0" :max="5"></PlusMinusField>
               </div>
 
               <div class="eventSelector">
-                <label>Le brunch de dimanche :</label>
+                <label>Le brunch de jeudi :</label>
                 <PlusMinusField v-model="selectedGuest.responseSunday" :min="0" :max="5"></PlusMinusField>
               </div>
             </div>    
           </div>
 
           <div class="row">
-            <label>Allergies et restrictions alimentaîres : </label>
+            <label>Mes allergies et restrictions alimentaires : </label>
             <input type="text" v-model="selectedGuest.specialDiet" placeholder="Les carottes sont cuites !" />
           </div>
 
+          <br>
+          <p>Pour recevoir les futures correspondances de la part des mariés</p>
           <div class="row">
-            <label>Je souhaite recevoir les futures correspondances par email : </label>
-            <input type="text" v-model="selectedGuest.email" placeholder="Mon email" />
+            <label>Mon adresse email : </label>
+            <input type="text" v-model="selectedGuest.email" placeholder="moi@email.com" />
           </div>
 
           <div class="button">
@@ -212,8 +219,7 @@ export default {
           return 1;
         return 0;
       }
-
-      return this.filteredList.sort(compare);
+      return [...this.filteredList].sort(compare);
     },
     selectedGuest() {
       return this.guests.filter(guest =>
@@ -224,9 +230,10 @@ export default {
       return this.guests.filter(guest => guest.familyID === this.selectedGuest.familyID)
     },
     jsonBody() {
+      var copiedSelectedGuest = [...this.selectedGuest]
       for (var key in this.selectedGuest) {
         if (typeof this.selectedGuest[key] == 'string') {
-          this.selectedGuest[key] = this.selectedGuest[key].replace(/'/g,"’")
+          copiedSelectedGuest[key] = this.copiedSelectedGuest[key].replace(/'/g,"’")
         }
       }
       return JSON.stringify(this.selectedGuest)
@@ -305,7 +312,6 @@ export default {
     min-width: 200px;
     font-size: 14px;
     margin: 0px 5px;
-
   }
 
   input[type="number"] {
