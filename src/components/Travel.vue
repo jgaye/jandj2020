@@ -13,11 +13,11 @@
           </ul>
         </p>
 
-        <p>*For your convenience, <b>a shuttle service will be available from the Limoges train station</b> to Le Domaine d’Essendiéras. Please check back as the date gets closer for more information. 
+        <p>*For your convenience, <b>a shuttle service will be available from the Limoges train station</b> to Le Domaine d’Essendiéras. As a note, there's an additional hour travel time from the train station to the venue. Please check back as the date gets closer for more information. 
         </p>
 
-        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a>.</p> 
-        <p>For the guests arriving on <b>Tuesday</b>, the train times we recommend (based on travel time and cost) are:</p>
+        <p>Train tickets can be booked directly on <a target="_blank" href="https://en.oui.sncf/en/train-ticket">SNCF’s website</a> when they are available for purchase in Winter 2021. Once the train schedule is announced, we will reach out to our guests with recommended train times.</p> 
+      <!--   <p>For the guests arriving on <b>Tuesday</b>, the train times we recommend (based on travel time and cost) are:</p>
         <p><ul>
           <li>Departure 9:29 PARIS AUSTERLITZ</li>
           <li>Arrival 12:46 LIMOGES BENEDICTINS</li>
@@ -33,7 +33,7 @@
           <li>Departure 9:29 PARIS AUSTERLITZ</li>
           <li>Arrival 12:46 LIMOGES BENEDICTINS</li>
         </ul></p>
-        <p><b>Please keep in mind, there's an additional hour travel time from the train station to the venue.</b></p>
+        <p><b>Please keep in mind, there's an additional hour travel time from the train station to the venue.</b></p> -->
       </div>
 
       <h2>Airports</h2>
@@ -72,9 +72,11 @@
             <li> Limoges* (60 km) </li>
           </ul>
         </p>
-        <p>*Pour votre confort, <b>un service de navette sera disponible depuis la gare de Limoges</b> jusqu’au Domaine d’Essendiéras. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
+        <p>*Pour votre confort, <b>un service de navette sera disponible depuis la gare de Limoges</b> jusqu’au Domaine d’Essendiéras. Veuillez noter qu'il y'a une heure de temps de trajet supplémentaire entre la gare et le comaine. Veuillez vérifier ce site web pour de plus amples informations ultérieurement. </p>
 
-        <p>Pour les invités arrivant le <b>Mardi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
+        <p>Les billets de trains seront disponibles à l'achat sur <a target="_blank" href="https://fr.oui.sncf/en/train-ticket">le site web de la SNCF</a> en début d'année 2021. Dès que les horaires de trains seront disponibles, nous vous contacterons pour les partager avec vous.</p> 
+
+        <!-- <p>Pour les invités arrivant le <b>Mardi</b>, les horaires de train que nous recommandons (en fonction du temps de trajet et du prix des billets) sont les suivants:</p>
         <p><ul>
           <li>Départ 9h29 PARIS AUSTERLITZ</li>
           <li>Arrivée 12h46 LIMOGES BENEDICTINS</li>
@@ -90,7 +92,7 @@
           <li>Départ 9h29 PARIS AUSTERLITZ</li>
           <li>Arrivée 12h46 LIMOGES BENEDICTINS</li>
         </ul></p>
-        <p><b>Veuillez noter qu'il y a un temps de trajet supplémentaire entre la gare et le domaine.</b></p>
+        <p><b>Veuillez noter qu'il y a un temps de trajet supplémentaire entre la gare et le domaine.</b></p> -->
 
       </div>
       <h2> Aéroports </h2>
