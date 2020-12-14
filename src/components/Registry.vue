@@ -5,7 +5,8 @@
       <h2>Wedding Registry</h2>
       <div class="pageRegistry">
 
-        <p>Your presence at wedding is the greatest gift of all. However, if you would like to honor us with a gift, you'll find a card box our wish list below. Please feel no obligation to use this list.</p>
+        <p>Your presence at our wedding is the greatest gift of all. However, if you would like to honor us with a money gift, you'll find a card box at the reception.</p>
+        <p> For those favoring a physical gift, our wish list is below. Please feel no obligation to use this list.</p>
         <p>If you do intend to gift a listed item, click the button next to the item, so other guests will know it's been purchased.</p>
 
         <div class="listWrapper">
