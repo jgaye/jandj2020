@@ -9,7 +9,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>We look forward to celebrating with you! Kindly RSVP by April 1, 2021.</p>
+            <p>We look forward to celebrating with you! Kindly RSVP by June 15, 2021.</p>
             <label>Search your name:
               <input type="text" v-model="search" placeholder="Enter your name"/>
             </label>
@@ -91,7 +91,7 @@
         </div>
         <div v-else-if="guestID == 0">
           <div class="searchWrapper">
-            <p>Nous avons hâte de célébrer notre mariage avec vous ! Réponse souhaitée avant le 1er avril 2021.</p>
+            <p>Nous avons hâte de célébrer notre mariage avec vous ! Réponse souhaitée avant le 15 juin 2021.</p>
             <label>Tapez votre nom ici :
               <input type="text" v-model="search" placeholder="Votre nom"/>
             </label>
